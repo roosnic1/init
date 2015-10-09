@@ -1,14 +1,29 @@
 {
   "dependencies": {
     "bower": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "from": "bower@*",
-      "resolved": "https://registry.npmjs.org/bower/-/bower-1.5.2.tgz"
+      "resolved": "https://registry.npmjs.org/bower/-/bower-1.5.3.tgz"
+    },
+    "browser-sync": {
+      "version": "2.9.10",
+      "from": "browser-sync@*",
+      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.9.10.tgz"
+    },
+    "caniuse-cmd": {
+      "version": "1.1.1",
+      "from": "caniuse-cmd@*",
+      "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.1.1.tgz"
     },
     "ember-cli": {
       "version": "1.13.8",
       "from": "ember-cli@*",
       "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.8.tgz"
+    },
+    "eslint": {
+      "version": "1.6.0",
+      "from": "eslint@*",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-1.6.0.tgz"
     },
     "express-generator": {
       "version": "4.13.1",
@@ -26,9 +41,9 @@
       "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
     },
     "jscs": {
-      "version": "1.13.1",
+      "version": "2.2.1",
       "from": "jscs@*",
-      "resolved": "https://registry.npmjs.org/jscs/-/jscs-1.13.1.tgz"
+      "resolved": "https://registry.npmjs.org/jscs/-/jscs-2.2.1.tgz"
     },
     "nodemon": {
       "version": "1.7.1",
@@ -36,7 +51,7 @@
       "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz"
     },
     "npm": {
-      "version": "2.10.1"
+      "version": "2.14.4"
     }
   }
 }
