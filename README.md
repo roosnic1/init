@@ -13,7 +13,7 @@ pip install --user powerline-status
 ## Powerline Fonts
 ```sh
 git clone git@github.com:powerline/fonts.git
-cd clone
+cd fonts
 ./install.sh
 ```
 
