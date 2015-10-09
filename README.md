@@ -2,3 +2,32 @@ init
 ====
 
 Configfiles, Tools, System Hacks, Colors and all that stuff
+
+
+# Requirements
+Powerline
+
+sh```
+pip install --user powerline-status
+```
+
+Fonts
+git clone git@github.com:powerline/fonts.git
+cd clone
+./install.sh
+
+
+# Iterm
+
+change Regular and Non-ASCII Font to:
+12pt Meslo LG S DZ Regular for Powerline
+
+change theme to Tomorrow Night Bright
+
+# Install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
+# Install thefuck
+https://github.com/nvbn/thefuck
+
