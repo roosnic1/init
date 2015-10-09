@@ -25,12 +25,14 @@ change Regular and Non-ASCII Font to:
 
 change theme to Tomorrow Night Bright
 
+
 # Install zsh
 ```sh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-
 # Install thefuck
 https://github.com/nvbn/thefuck
 
+# Install z
+https://github.com/rupa/z
