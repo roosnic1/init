@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/nicolas/.oh-my-zsh
+export ZSH=/Users/koki/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,12 +53,11 @@ plugins=(git sublime bower npm osx brew)
 
 # User configuration
 
-#export PATH="/Users/nicolas/.nvm/versions/node/v4.1.1/bin:/Users/nicolas/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nicolas/development/android-sdk-macosx/tools:/Users/nicolas/development/android-sdk-macosx/platform-tools"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 #Android
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
-export ANDROID_HOME="/Users/nicolas/development/android-sdk-macosx"
+export ANDROID_HOME="/Users/koki/development/adt-bundle-mac-x86_64-20131030"
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 #PATH
@@ -86,8 +85,12 @@ export ARCHFLAGS="-arch x86_64"
 . ~/bin/z.sh
 
 #Init NVM
-export NVM_DIR="/Users/nicolas/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="/Users/koki/.nvm"
+export NVM_NODEJS_ORG_MIRROR=http://nodejs.org/dist
+export NVM_IOJS_ORG_MIRROR=http://iojs.org/dist
+source $(brew --prefix nvm)/nvm.sh
+
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
 #Init Virtualenv

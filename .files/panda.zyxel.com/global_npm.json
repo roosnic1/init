@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "bower": {
+      "version": "1.5.2",
+      "from": "bower@*",
+      "resolved": "https://registry.npmjs.org/bower/-/bower-1.5.2.tgz"
+    },
+    "ember-cli": {
+      "version": "1.13.8",
+      "from": "ember-cli@*",
+      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.8.tgz"
+    },
+    "express-generator": {
+      "version": "4.13.1",
+      "from": "express-generator@*",
+      "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz"
+    },
+    "grunt-cli": {
+      "version": "0.1.13",
+      "from": "grunt-cli@*",
+      "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz"
+    },
+    "gulp": {
+      "version": "3.9.0",
+      "from": "gulp@*",
+      "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
+    },
+    "jscs": {
+      "version": "1.13.1",
+      "from": "jscs@*",
+      "resolved": "https://registry.npmjs.org/jscs/-/jscs-1.13.1.tgz"
+    },
+    "nodemon": {
+      "version": "1.7.1",
+      "from": "nodemon@*",
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz"
+    },
+    "npm": {
+      "version": "2.10.1"
+    }
+  }
+}

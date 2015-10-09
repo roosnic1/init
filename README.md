@@ -31,6 +31,9 @@ change theme to Tomorrow Night Bright
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+## Install zsh Theme
+https://github.com/caiogondim/bullet-train-oh-my-zsh-theme/blob/master/bullet-train.zsh-theme
+
 # Install thefuck
 https://github.com/nvbn/thefuck
 

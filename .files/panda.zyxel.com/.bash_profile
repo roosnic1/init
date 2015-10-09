@@ -1,12 +1,15 @@
-#Android
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
-export ANDROID_HOME="/Users/nicolas/development/android-sdk-macosx"
+#export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
+
+export ANDROID_HOME="/Users/koki/development/android/sdk"
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
-#PATH
-export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
-export ARCHFLAGS="-arch x86_64"
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 
+export PATH=/usr/local/bin:/usr/local/cellar:/usr/local/share/python:$PATH
+export PATH=/Applications/XAMPP/xamppfiles/bin:$PATH
+export PATH=${PATH}:~/bin
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -21,10 +24,9 @@ HISTSIZE=100000
 HISTFILESIZE=2000000
 
 
-### Simple Prompt
+#PROMPT
 #export PS1="\[\033[00;36m\]\u\[\033[00;31m\]@\h\[\033[00;32m\]!\[\033[00;36m\]\w: \[\033[00;32m\]"
-
-### Fancy Prompt
+### Prompt Colors
 # Modified version of @gf3’s Sexy Bash Prompt
 # (https://github.com/gf3/dotfiles)
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
@@ -87,7 +89,6 @@ symbol="☮ "
 export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n$symbol\[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 
-# Only show the current directory's name in the tab
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 #LSCOLORS
@@ -95,7 +96,7 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 
-# Alias
+#ALIAS
 alias grep='grep --color=auto'
 
 colorflag='-G'
@@ -107,9 +108,9 @@ alias lsd='ls -lF ${colorflag} | grep "^d"'
 
 alias s='open -a "Sublime Text"'
 
-alias p='python -m SimpleHTTPServer'
-
 alias dev='cd ~/development'
+alias c='pygmentize -O style=monokai -f console256 -g'
+alias x='top -o cpu'
 
 # Git
 alias gs='git status'
@@ -117,24 +118,13 @@ alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
-#Init z
 . ~/bin/z.sh
 
-export NVM_DIR="/Users/nicolas/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
 
-#Virtualenv
-# pip should only run if there is a virtualenv currently activated
-export PIP_REQUIRE_VIRTUALENV=true
-# cache pip-installed packages to avoid re-downloading
-export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
-
-#run pip without Virtualenv
-gpip(){
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
-}
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/development
-source /usr/local/bin/virtualenvwrapper.sh
+export NVM_DIR="/Users/koki/.nvm"
+export NVM_NODEJS_ORG_MIRROR=http://nodejs.org/dist
+export NVM_IOJS_ORG_MIRROR=http://iojs.org/dist
+source $(brew --prefix nvm)/nvm.sh
 eval $(thefuck --alias)
