@@ -6,12 +6,12 @@ Configfiles, Tools, System Hacks, Colors and all that stuff
 
 # Requirements
 ## Powerline
-sh```
+```sh
 pip install --user powerline-status
 ```
 
 ## Powerline Fonts
-sh```
+```sh
 git clone git@github.com:powerline/fonts.git
 cd clone
 ./install.sh
@@ -26,7 +26,7 @@ change Regular and Non-ASCII Font to:
 change theme to Tomorrow Night Bright
 
 # Install zsh
-sh```
+```sh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
