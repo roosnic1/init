@@ -117,7 +117,6 @@ eval $(thefuck --alias)
 
 # Alias
 alias grep='grep --color=auto'
-
 colorflag='-G'
 alias ls='command ls ${colorflag}'
 alias l='ls -lah ${colorflag}'
@@ -125,10 +124,7 @@ alias ll='ls -l ${colorflag}'
 alias la='ls -A ${colorflag}'
 alias lsd='ls -lF ${colorflag} | grep "^d"'
 
-alias s='subl'
-
 alias p='python -m SimpleHTTPServer'
-
 alias dev='cd ~/development'
 
 # Git
@@ -136,3 +132,7 @@ alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
+
+# System
+alias x='top -o cpu'
+
