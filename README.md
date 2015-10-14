@@ -39,3 +39,10 @@ https://github.com/nvbn/thefuck
 
 # Install z
 https://github.com/rupa/z
+
+# Configure launchctl for mongodb
+add plist to ~/Library/LaunchAgents/org.mongodb.mongod.plist
+```sh
+launchctl load ~/Library/LaunchAgents/org.mongodb.mongod.plist
+launchctl start org.mongodb.mongod
+```
