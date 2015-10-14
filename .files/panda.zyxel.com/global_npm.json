@@ -2,56 +2,61 @@
   "dependencies": {
     "bower": {
       "version": "1.5.3",
-      "from": "bower@*",
+      "from": "bower@1.5.3",
       "resolved": "https://registry.npmjs.org/bower/-/bower-1.5.3.tgz"
     },
     "browser-sync": {
       "version": "2.9.10",
-      "from": "browser-sync@*",
+      "from": "browser-sync@2.9.10",
       "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.9.10.tgz"
     },
     "caniuse-cmd": {
       "version": "1.1.1",
-      "from": "caniuse-cmd@*",
+      "from": "caniuse-cmd@1.1.1",
       "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.1.1.tgz"
     },
     "ember-cli": {
       "version": "1.13.8",
-      "from": "ember-cli@*",
+      "from": "ember-cli@1.13.8",
       "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.8.tgz"
     },
     "eslint": {
       "version": "1.6.0",
-      "from": "eslint@*",
+      "from": "eslint@1.6.0",
       "resolved": "https://registry.npmjs.org/eslint/-/eslint-1.6.0.tgz"
     },
     "express-generator": {
       "version": "4.13.1",
-      "from": "express-generator@*",
+      "from": "express-generator@4.13.1",
       "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz"
+    },
+    "firebase-tools": {
+      "version": "2.0.0",
+      "from": "firebase-tools@*",
+      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-2.0.0.tgz"
     },
     "grunt-cli": {
       "version": "0.1.13",
-      "from": "grunt-cli@*",
+      "from": "grunt-cli@0.1.13",
       "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz"
     },
     "gulp": {
       "version": "3.9.0",
-      "from": "gulp@*",
+      "from": "gulp@3.9.0",
       "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
     },
     "jscs": {
       "version": "2.2.1",
-      "from": "jscs@*",
+      "from": "jscs@2.2.1",
       "resolved": "https://registry.npmjs.org/jscs/-/jscs-2.2.1.tgz"
     },
     "nodemon": {
       "version": "1.7.1",
-      "from": "nodemon@*",
+      "from": "nodemon@1.7.1",
       "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.7.1.tgz"
     },
     "npm": {
-      "version": "2.14.4"
+      "version": "2.14.7"
     }
   }
 }

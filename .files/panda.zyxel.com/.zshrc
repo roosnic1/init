@@ -139,3 +139,6 @@ alias gp='git push'
 # System
 alias x='top -o cpu'
 
+# Mongodb
+alias mongostart="launchctl start org.mongodb.mongod"
+alias mongostop="launchctl stop org.mongodb.mongod"
