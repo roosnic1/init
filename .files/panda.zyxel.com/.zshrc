@@ -56,7 +56,7 @@ plugins=(git sublime bower npm osx brew)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 #Android
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/"
 export ANDROID_HOME="/Users/koki/development/adt-bundle-mac-x86_64-20131030"
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
@@ -137,7 +137,8 @@ alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
 # System
-alias x='top -o cpu'
+alias x='sudo htop'
+alias y='top -o cpu'
 
 # Mongodb
 alias mongostart="launchctl start org.mongodb.mongod"

@@ -16,6 +16,8 @@ gfortran
 glib
 gmp
 gnutls
+gradle
+htop
 isl
 jpeg
 libcmph
@@ -33,6 +35,7 @@ mongodb
 mpfr
 mpich
 mpich2
+ncdu
 nettle
 nspr
 nss
