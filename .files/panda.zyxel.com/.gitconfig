@@ -32,6 +32,7 @@
 	st = status -s -b
 	co = checkout
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	wow = log --all --graph --decorate --oneline --simplify-by-decoration
 [push]
 	default = simple
 [filter "lfs"]
