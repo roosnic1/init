@@ -30,7 +30,7 @@ CASE_SENSITIVE="true"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -49,7 +49,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime bower npm osx brew)
+plugins=(git sublime bower npm osx brew gulp grunt)
 
 # User configuration
 
@@ -137,7 +137,7 @@ alias gc='git commit -m' # requires you to type a commit message
 alias gp='git push'
 
 # System
-alias x='sudo htop'
+alias x='htop'
 alias y='top -o cpu'
 
 # Mongodb

@@ -40,6 +40,11 @@
       "from": "gulp@3.9.0",
       "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
     },
+    "how2": {
+      "version": "1.1.0",
+      "from": "how2@latest",
+      "resolved": "https://registry.npmjs.org/how2/-/how2-1.1.0.tgz"
+    },
     "jscs": {
       "version": "2.2.1",
       "from": "jscs@2.2.1",
