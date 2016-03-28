@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "bower": {
+      "version": "1.7.7",
+      "from": "bower@latest",
+      "resolved": "https://registry.npmjs.org/bower/-/bower-1.7.7.tgz"
+    },
     "browser-sync": {
       "version": "2.9.10",
       "from": "browser-sync@2.9.10",
@@ -11,9 +16,9 @@
       "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.2.0.tgz"
     },
     "ember-cli": {
-      "version": "1.13.13",
-      "from": "ember-cli@1.13.13",
-      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-1.13.13.tgz"
+      "version": "2.4.3",
+      "from": "ember-cli@2.4.3",
+      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.4.3.tgz"
     },
     "eslint": {
       "version": "1.6.0",
@@ -75,11 +80,6 @@
       "version": "0.62.3",
       "from": "webtorrent@0.62.3",
       "resolved": "https://registry.npmjs.org/webtorrent/-/webtorrent-0.62.3.tgz"
-    },
-    "bower": {
-      "version": "1.7.1",
-      "from": "bower@1.7.1",
-      "resolved": "https://registry.npmjs.org/bower/-/bower-1.7.1.tgz"
     }
   }
 }
