@@ -1,0 +1,97 @@
+{
+  "dependencies": {
+    "bower": {
+      "version": "1.7.7",
+      "from": "bower@latest",
+      "resolved": "https://registry.npmjs.org/bower/-/bower-1.7.7.tgz"
+    },
+    "browser-sync": {
+      "version": "2.9.10",
+      "from": "browser-sync@2.9.10",
+      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.9.10.tgz"
+    },
+    "caniuse-cmd": {
+      "version": "1.2.0",
+      "from": "caniuse-cmd@1.2.0",
+      "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.2.0.tgz"
+    },
+    "devtool": {
+      "version": "1.9.1",
+      "from": "devtool@latest",
+      "resolved": "https://registry.npmjs.org/devtool/-/devtool-1.9.1.tgz"
+    },
+    "ember-cli": {
+      "version": "2.4.3",
+      "from": "ember-cli@2.4.3",
+      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.4.3.tgz"
+    },
+    "eslint": {
+      "version": "1.6.0",
+      "from": "eslint@1.6.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-1.6.0.tgz"
+    },
+    "express-generator": {
+      "version": "4.13.1",
+      "from": "express-generator@4.13.1",
+      "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz"
+    },
+    "firebase-tools": {
+      "version": "2.0.0",
+      "from": "firebase-tools@2.0.0",
+      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-2.0.0.tgz"
+    },
+    "grunt-cli": {
+      "version": "0.1.13",
+      "from": "grunt-cli@0.1.13",
+      "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz"
+    },
+    "gulp": {
+      "version": "3.9.0",
+      "from": "gulp@3.9.0",
+      "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz"
+    },
+    "how2": {
+      "version": "1.1.0",
+      "from": "how2@latest",
+      "resolved": "https://registry.npmjs.org/how2/-/how2-1.1.0.tgz"
+    },
+    "jscs": {
+      "version": "2.2.1",
+      "from": "jscs@2.2.1",
+      "resolved": "https://registry.npmjs.org/jscs/-/jscs-2.2.1.tgz"
+    },
+    "jshint": {
+      "version": "2.8.0",
+      "from": "jshint@2.8.0",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.8.0.tgz"
+    },
+    "kommissionen2": {
+      "version": "0.0.1"
+    },
+    "nodemon": {
+      "version": "1.8.1",
+      "from": "nodemon@1.8.1",
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.8.1.tgz"
+    },
+    "npm": {
+      "version": "3.8.5",
+      "from": "npm@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/npm/-/npm-3.8.5.tgz"
+    },
+    "phantomjs-prebuilt": {
+      "version": "2.1.7",
+      "from": "phantomjs-prebuilt@latest",
+      "resolved": "https://registry.npmjs.org/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.7.tgz"
+    },
+    "tldr": {
+      "version": "1.6.0",
+      "from": "tldr@latest",
+      "resolved": "https://registry.npmjs.org/tldr/-/tldr-1.6.0.tgz"
+    },
+    "webtorrent": {
+      "version": "0.62.3",
+      "from": "webtorrent@0.62.3",
+      "resolved": "https://registry.npmjs.org/webtorrent/-/webtorrent-0.62.3.tgz"
+    }
+  }
+}
