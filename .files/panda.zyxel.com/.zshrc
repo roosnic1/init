@@ -84,14 +84,6 @@ export ARCHFLAGS="-arch x86_64"
 #Init z
 . ~/bin/z.sh
 
-#Init NVM
-export NVM_DIR="/Users/koki/.nvm"
-export NVM_NODEJS_ORG_MIRROR=http://nodejs.org/dist
-export NVM_IOJS_ORG_MIRROR=http://iojs.org/dist
-source $(brew --prefix nvm)/nvm.sh
-
-#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 
 #Init Virtualenv
 # pip should only run if there is a virtualenv currently activated
@@ -143,3 +135,33 @@ alias y='top -o cpu'
 # Mongodb
 alias mongostart="launchctl start org.mongodb.mongod"
 alias mongostop="launchctl stop org.mongodb.mongod"
+
+
+# Functions
+
+calendar() {
+   if [[ ! -f /usr/bin/cal ]] ; then
+      echo "Please install cal before trying to use it!"
+      return
+   fi
+
+   if [[ "$#" = "0" ]] ; then
+      /usr/bin/cal | egrep -C 40 --color "\<$(date +%e| tr -d ' ')\>"
+   else
+      /usr/bin/cal $@ | egrep -C 40 --color "\<($(date +%B)|$(date +%e | tr -d ' '))\>"
+   fi
+}
+
+unkey_host() {
+   if [[ -z "$1" ]] ; then
+      echo "usage: \e[1;36munkey_host \e[1;0m< host >"
+      echo "       Removes the specified host from ssh known host list"
+   else
+      sed -i -e "/$1/d" $HOME/.ssh/known_hosts
+   fi
+}
+
+
+# tabtab source for yo package
+# uninstall by removing these lines or running `tabtab uninstall yo`
+[[ -f /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh ]] && . /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh
