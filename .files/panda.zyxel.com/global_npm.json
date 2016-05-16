@@ -93,10 +93,10 @@
       "from": "tldr@latest",
       "resolved": "https://registry.npmjs.org/tldr/-/tldr-1.6.0.tgz"
     },
-    "webtorrent": {
-      "version": "0.62.3",
-      "from": "webtorrent@0.62.3",
-      "resolved": "https://registry.npmjs.org/webtorrent/-/webtorrent-0.62.3.tgz"
+    "webtorrent-cli": {
+      "version": "1.2.0",
+      "from": "webtorrent-cli@latest",
+      "resolved": "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.2.0.tgz"
     },
     "yo": {
       "version": "1.8.1",
