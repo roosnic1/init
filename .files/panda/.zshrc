@@ -160,3 +160,9 @@ unkey_host() {
       sed -i -e "/$1/d" $HOME/.ssh/known_hosts
    fi
 }
+
+
+# tabtab source for yo package
+# uninstall by removing these lines or running `tabtab uninstall yo`
+[[ -f /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh ]] && . /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

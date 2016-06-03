@@ -1,14 +1,17 @@
 #!/bin/zsh
-mkdir .files/$(hostname)
 
-cp ~/.gitconfig .files/$(hostname)/
-cp ~/.gitignore_global .files/$(hostname)/
-cp ~/.zshrc .files/$(hostname)/
-cp ~/.eslintrc .files/$(hostname)/
-cp ~/.bash_profile .files/$(hostname)/
+hname=${$(hostname)%.*}
+
+mkdir .files/$hname
+
+cp ~/.gitconfig .files/$hname/
+cp ~/.gitignore_global .files/$hname/
+cp ~/.zshrc .files/$hname/
+cp ~/.eslintrc .files/$hname/
+cp ~/.bash_profile .files/$hname/
 
 #Get all global node modules
-npm list -global -depth=0 -json > .files/$(hostname)/global_npm.json
+npm list -global -depth=0 -json > .files/$hname/global_npm.json
 
 #Get all brew formulas
-brew list > .files/$(hostname)/brews_list.txt
+brew list > .files/$hname/brews_list.txt

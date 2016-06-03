@@ -7,6 +7,7 @@ c-ares
 cairo
 cloog
 d-bus
+dbus
 erlang
 expat
 faad2
@@ -50,6 +51,7 @@ libtasn1
 libtiff
 libtool
 libvorbis
+libyaml
 lighttpd
 mad
 maven
@@ -80,6 +82,7 @@ python-singledispatch
 python-six
 python-tornado
 readline
+ruby
 speex
 sqlite
 ssh-copy-id
