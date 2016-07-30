@@ -1,49 +1,84 @@
 {
   "dependencies": {
-    "bower": {
-      "version": "1.7.9",
-      "from": "bower@1.7.9",
-      "resolved": "https://registry.npmjs.org/bower/-/bower-1.7.9.tgz"
+    "bower-dependency-tree": {
+      "version": "0.1.2",
+      "from": "bower-dependency-tree@0.1.2",
+      "resolved": "https://registry.npmjs.org/bower-dependency-tree/-/bower-dependency-tree-0.1.2.tgz"
     },
     "browser-sync": {
-      "version": "2.12.10",
+      "version": "2.13.0",
       "from": "browser-sync@latest",
-      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.12.10.tgz"
+      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.13.0.tgz"
     },
     "caniuse-cmd": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "from": "caniuse-cmd@latest",
-      "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.3.0.tgz"
+      "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.3.1.tgz"
     },
     "devtool": {
-      "version": "2.0.2",
+      "version": "2.0.3",
       "from": "devtool@latest",
-      "resolved": "https://registry.npmjs.org/devtool/-/devtool-2.0.2.tgz"
+      "resolved": "https://registry.npmjs.org/devtool/-/devtool-2.0.3.tgz"
     },
     "ember-cli": {
-      "version": "2.5.1",
+      "version": "2.7.0",
       "from": "ember-cli@latest",
-      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.5.1.tgz"
+      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.7.0.tgz"
     },
     "eslint": {
-      "version": "2.11.1",
-      "from": "eslint@latest",
-      "resolved": "https://registry.npmjs.org/eslint/-/eslint-2.11.1.tgz"
+      "version": "2.13.1",
+      "from": "eslint@>=2.9.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-2.13.1.tgz"
+    },
+    "eslint-config-airbnb": {
+      "version": "9.0.1",
+      "from": "eslint-config-airbnb@latest",
+      "resolved": "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-9.0.1.tgz"
+    },
+    "eslint-plugin-html": {
+      "version": "1.5.1",
+      "from": "eslint-plugin-html@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-html/-/eslint-plugin-html-1.5.1.tgz"
+    },
+    "eslint-plugin-import": {
+      "version": "1.12.0",
+      "from": "eslint-plugin-import@>=1.7.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-1.12.0.tgz"
+    },
+    "eslint-plugin-jsx-a11y": {
+      "version": "1.5.5",
+      "from": "eslint-plugin-jsx-a11y@>=1.2.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-1.5.5.tgz"
+    },
+    "eslint-plugin-markdown": {
+      "version": "1.0.0-beta.2",
+      "from": "eslint-plugin-markdown@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.2.tgz"
+    },
+    "eslint-plugin-react": {
+      "version": "5.2.2",
+      "from": "eslint-plugin-react@>=5.0.1 <6.0.0",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-5.2.2.tgz"
     },
     "express-generator": {
-      "version": "4.13.1",
-      "from": "express-generator@4.13.1",
-      "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz"
+      "version": "4.13.4",
+      "from": "express-generator@latest",
+      "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz"
     },
     "firebase-tools": {
-      "version": "3.0.2",
-      "from": "firebase-tools@latest",
-      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.2.tgz"
+      "version": "3.0.4",
+      "from": "firebase-tools@3.0.4",
+      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.4.tgz"
     },
     "generator-chrome-extension": {
       "version": "0.5.6",
       "from": "generator-chrome-extension@0.5.6",
       "resolved": "https://registry.npmjs.org/generator-chrome-extension/-/generator-chrome-extension-0.5.6.tgz"
+    },
+    "generator-react-fullstack": {
+      "version": "0.1.18",
+      "from": "generator-react-fullstack@0.1.18",
+      "resolved": "https://registry.npmjs.org/generator-react-fullstack/-/generator-react-fullstack-0.1.18.tgz"
     },
     "generator-webapp": {
       "version": "2.1.0",
@@ -52,12 +87,12 @@
     },
     "grunt-cli": {
       "version": "1.2.0",
-      "from": "grunt-cli@latest",
+      "from": "grunt-cli@1.2.0",
       "resolved": "https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz"
     },
     "gulp": {
       "version": "3.9.1",
-      "from": "gulp@latest",
+      "from": "gulp@3.9.1",
       "resolved": "https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz"
     },
     "how2": {
@@ -66,30 +101,37 @@
       "resolved": "https://registry.npmjs.org/how2/-/how2-1.1.0.tgz"
     },
     "jscs": {
-      "version": "3.0.3",
+      "version": "3.0.7",
       "from": "jscs@latest",
-      "resolved": "https://registry.npmjs.org/jscs/-/jscs-3.0.3.tgz"
+      "resolved": "https://registry.npmjs.org/jscs/-/jscs-3.0.7.tgz"
     },
     "jshint": {
       "version": "2.9.2",
-      "from": "jshint@latest",
+      "from": "jshint@2.9.2",
       "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.2.tgz"
     },
     "kommissionen2": {
       "version": "0.0.1"
     },
     "nodemon": {
-      "version": "1.9.2",
+      "version": "1.10.0",
       "from": "nodemon@latest",
-      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.9.2.tgz"
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.10.0.tgz"
     },
     "npm": {
-      "version": "3.8.9"
+      "version": "3.10.5",
+      "from": "npm@latest",
+      "resolved": "https://registry.npmjs.org/npm/-/npm-3.10.5.tgz"
     },
     "phantomjs-prebuilt": {
-      "version": "2.1.7",
-      "from": "phantomjs-prebuilt@2.1.7",
-      "resolved": "https://registry.npmjs.org/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.7.tgz"
+      "version": "2.1.8",
+      "from": "phantomjs-prebuilt@latest",
+      "resolved": "https://registry.npmjs.org/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.8.tgz"
+    },
+    "react-native-cli": {
+      "version": "1.0.0",
+      "from": "react-native-cli@1.0.0",
+      "resolved": "https://registry.npmjs.org/react-native-cli/-/react-native-cli-1.0.0.tgz"
     },
     "tldr": {
       "version": "1.6.0",
@@ -97,13 +139,13 @@
       "resolved": "https://registry.npmjs.org/tldr/-/tldr-1.6.0.tgz"
     },
     "webtorrent-cli": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "from": "webtorrent-cli@latest",
-      "resolved": "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.2.2.tgz"
+      "resolved": "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.2.3.tgz"
     },
     "yo": {
       "version": "1.8.4",
-      "from": "yo@latest",
+      "from": "yo@1.8.4",
       "resolved": "https://registry.npmjs.org/yo/-/yo-1.8.4.tgz"
     }
   }

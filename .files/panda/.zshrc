@@ -49,7 +49,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime bower npm osx brew gulp grunt)
+plugins=(git sublime bower npm osx brew gulp grunt noreallyjustfuckingstopalready)
 
 # User configuration
 
@@ -57,7 +57,7 @@ plugins=(git sublime bower npm osx brew gulp grunt)
 
 #Android
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/"
-export ANDROID_HOME="/Users/koki/development/adt-bundle-mac-x86_64-20131030"
+export ANDROID_HOME="/Users/koki/development/android/sdk"
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 #PATH
