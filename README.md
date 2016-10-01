@@ -23,7 +23,7 @@ cd fonts
 change Regular and Non-ASCII Font to:
 12pt Meslo LG S DZ Regular for Powerline
 
-change theme to Tomorrow Night Bright
+Change theme to Tomorrow Night Bright
 
 
 # Install zsh
