@@ -1,0 +1,17 @@
+{
+	"extends": "airbnb",
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6"
+	},
+	"rules": {
+		"no-unused-vars": [1, {
+			"argsIgnorePattern": "res|next|^err"
+		}],
+		"no-param-reassign": [2, { "props": false }],
+		"no-console": 1,
+		"arrow-body-style": [2, "as-needed"]
+	},
+	"plugins": ["html"]
+}

@@ -1,4 +1,7 @@
 {
+  "problems": [
+    "peer dep missing: eslint-plugin-import@^1.16.0, required by eslint-config-airbnb@12.0.0"
+  ],
   "dependencies": {
     "bower-dependency-tree": {
       "version": "0.1.2",
@@ -6,49 +9,3092 @@
       "resolved": "https://registry.npmjs.org/bower-dependency-tree/-/bower-dependency-tree-0.1.2.tgz"
     },
     "browser-sync": {
-      "version": "2.13.0",
+      "version": "2.17.5",
       "from": "browser-sync@latest",
-      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.13.0.tgz"
+      "resolved": "https://registry.npmjs.org/browser-sync/-/browser-sync-2.17.5.tgz"
     },
     "caniuse-cmd": {
       "version": "1.3.1",
-      "from": "caniuse-cmd@latest",
+      "from": "caniuse-cmd@1.3.1",
       "resolved": "https://registry.npmjs.org/caniuse-cmd/-/caniuse-cmd-1.3.1.tgz"
     },
     "devtool": {
-      "version": "2.0.3",
+      "version": "2.3.0",
       "from": "devtool@latest",
-      "resolved": "https://registry.npmjs.org/devtool/-/devtool-2.0.3.tgz"
+      "resolved": "https://registry.npmjs.org/devtool/-/devtool-2.3.0.tgz"
     },
     "ember-cli": {
-      "version": "2.7.0",
+      "version": "2.9.0",
       "from": "ember-cli@latest",
-      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.7.0.tgz"
+      "resolved": "https://registry.npmjs.org/ember-cli/-/ember-cli-2.9.0.tgz"
     },
     "eslint": {
-      "version": "3.1.1",
+      "version": "3.8.1",
       "from": "eslint@latest",
-      "resolved": "https://registry.npmjs.org/eslint/-/eslint-3.1.1.tgz"
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-3.8.1.tgz"
+    },
+    "eslint-config-airbnb": {
+      "version": "12.0.0",
+      "from": "eslint-config-airbnb@latest",
+      "resolved": "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-12.0.0.tgz"
+    },
+    "eslint-plugin-html": {
+      "version": "1.5.3",
+      "from": "eslint-plugin-html@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-html/-/eslint-plugin-html-1.5.3.tgz"
+    },
+    "eslint-plugin-import": {
+      "required": {
+        "_args": [
+          [
+            {
+              "raw": "eslint-plugin-import",
+              "scope": null,
+              "escapedName": "eslint-plugin-import",
+              "name": "eslint-plugin-import",
+              "rawSpec": "",
+              "spec": "latest",
+              "type": "tag"
+            },
+            "/Users/koki/development/misc/init"
+          ]
+        ],
+        "_from": "eslint-plugin-import@latest",
+        "_id": "eslint-plugin-import@2.0.1",
+        "_inCache": true,
+        "_location": "/eslint-plugin-import",
+        "_nodeVersion": "4.2.5",
+        "_npmOperationalInternal": {
+          "host": "packages-12-west.internal.npmjs.com",
+          "tmp": "tmp/eslint-plugin-import-2.0.1.tgz_1476186904822_0.9398263914044946"
+        },
+        "_npmUser": {
+          "name": "benmosher",
+          "email": "me@benmosher.com"
+        },
+        "_npmVersion": "3.10.6",
+        "_phantomChildren": {},
+        "_requested": {
+          "raw": "eslint-plugin-import",
+          "scope": "[Circular]",
+          "escapedName": "eslint-plugin-import",
+          "name": "eslint-plugin-import",
+          "rawSpec": "",
+          "spec": "latest",
+          "type": "tag"
+        },
+        "_requiredBy": [
+          "#USER"
+        ],
+        "_resolved": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.0.1.tgz",
+        "_shasum": "dcfe96357d476b3f822570d42c29bec66f5d9c5c",
+        "_shrinkwrap": "[Circular]",
+        "_spec": "eslint-plugin-import",
+        "_where": "/Users/koki/development/misc/init",
+        "author": {
+          "name": "Ben Mosher",
+          "email": "me@benmosher.com"
+        },
+        "bugs": {
+          "url": "https://github.com/benmosher/eslint-plugin-import/issues"
+        },
+        "dependencies": {
+          "builtin-modules": {
+            "_args": [
+              [
+                {
+                  "raw": "builtin-modules@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "builtin-modules",
+                  "name": "builtin-modules",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/browser-sync/node_modules/is-builtin-module"
+              ],
+              [
+                {
+                  "raw": "builtin-modules@^1.1.1",
+                  "scope": "[Circular]",
+                  "escapedName": "builtin-modules",
+                  "name": "builtin-modules",
+                  "rawSpec": "^1.1.1",
+                  "spec": ">=1.1.1 <2.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "builtin-modules@^1.1.1",
+            "_id": "builtin-modules@1.1.1",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/builtin-modules",
+            "_nodeVersion": "5.3.0",
+            "_npmUser": {
+              "name": "sindresorhus",
+              "email": "sindresorhus@gmail.com"
+            },
+            "_npmVersion": "3.3.12",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "builtin-modules@^1.1.1",
+              "scope": "[Circular]",
+              "escapedName": "builtin-modules",
+              "name": "builtin-modules",
+              "rawSpec": "^1.1.1",
+              "spec": ">=1.1.1 <2.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/builtin-modules/-/builtin-modules-1.1.1.tgz",
+            "_shasum": "270f076c5a72c02f5b65a47df94c5fe3a278892f",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "builtin-modules@^1.1.1",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Sindre Sorhus",
+              "email": "sindresorhus@gmail.com",
+              "url": "sindresorhus.com"
+            },
+            "bugs": {
+              "url": "https://github.com/sindresorhus/builtin-modules/issues"
+            },
+            "dependencies": {},
+            "description": "List of the Node.js builtin modules",
+            "devDependencies": {
+              "ava": "*",
+              "xo": "*"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "270f076c5a72c02f5b65a47df94c5fe3a278892f",
+              "tarball": "https://registry.npmjs.org/builtin-modules/-/builtin-modules-1.1.1.tgz"
+            },
+            "engines": {
+              "node": ">=0.10.0"
+            },
+            "files": [
+              "index.js",
+              "static.js",
+              "builtin-modules.json"
+            ],
+            "gitHead": "0ea253452b1d8cb3a70d16464f909dbc0bc370fe",
+            "homepage": "https://github.com/sindresorhus/builtin-modules#readme",
+            "keywords": [
+              "builtin",
+              "built-in",
+              "builtins",
+              "node",
+              "modules",
+              "core",
+              "bundled",
+              "list",
+              "array",
+              "names"
+            ],
+            "license": "MIT",
+            "maintainers": [
+              {
+                "name": "sindresorhus",
+                "email": "sindresorhus@gmail.com"
+              }
+            ],
+            "name": "builtin-modules",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/sindresorhus/builtin-modules.git"
+            },
+            "scripts": {
+              "make": "node make.js",
+              "test": "xo && ava"
+            },
+            "version": "1.1.1",
+            "_dependencies": {},
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/builtin-modules",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "contains-path": {
+            "_args": [
+              [
+                {
+                  "raw": "contains-path@^0.1.0",
+                  "scope": "[Circular]",
+                  "escapedName": "contains-path",
+                  "name": "contains-path",
+                  "rawSpec": "^0.1.0",
+                  "spec": ">=0.1.0 <0.2.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "contains-path@>=0.1.0 <0.2.0",
+            "_id": "contains-path@0.1.0",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/contains-path",
+            "_nodeVersion": "0.12.4",
+            "_npmUser": {
+              "name": "jonschlinkert",
+              "email": "github@sellside.com"
+            },
+            "_npmVersion": "2.10.1",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "contains-path@^0.1.0",
+              "scope": "[Circular]",
+              "escapedName": "contains-path",
+              "name": "contains-path",
+              "rawSpec": "^0.1.0",
+              "spec": ">=0.1.0 <0.2.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/contains-path/-/contains-path-0.1.0.tgz",
+            "_shasum": "fe8cf184ff6670b6baef01a9d4861a5cbec4120a",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "contains-path@^0.1.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Jon Schlinkert",
+              "url": "https://github.com/jonschlinkert"
+            },
+            "bugs": {
+              "url": "https://github.com/jonschlinkert/contains-path/issues"
+            },
+            "dependencies": {},
+            "description": "Return true if a file path contains the given path.",
+            "devDependencies": {
+              "mocha": "*"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "fe8cf184ff6670b6baef01a9d4861a5cbec4120a",
+              "tarball": "https://registry.npmjs.org/contains-path/-/contains-path-0.1.0.tgz"
+            },
+            "engines": {
+              "node": ">=0.10.0"
+            },
+            "files": [
+              "index.js"
+            ],
+            "homepage": "https://github.com/jonschlinkert/contains-path",
+            "keywords": [
+              "contains",
+              "directory",
+              "dirname",
+              "exec",
+              "ext",
+              "extname",
+              "file",
+              "filepath",
+              "fp",
+              "has",
+              "match",
+              "matches",
+              "path",
+              "regex",
+              "test"
+            ],
+            "license": "MIT",
+            "main": "index.js",
+            "maintainers": [
+              {
+                "name": "jonschlinkert",
+                "email": "github@sellside.com"
+              }
+            ],
+            "name": "contains-path",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/jonschlinkert/contains-path.git"
+            },
+            "scripts": {
+              "test": "mocha"
+            },
+            "verb": {
+              "related": {
+                "list": [
+                  "ends-with",
+                  "path-ends-with",
+                  "path-segments",
+                  "is-absolute",
+                  "is-relative",
+                  "parse-filepath"
+                ]
+              }
+            },
+            "version": "0.1.0",
+            "_dependencies": {},
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/contains-path",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "debug": {
+            "_args": [
+              [
+                {
+                  "raw": "debug@^2.1.1",
+                  "scope": "[Circular]",
+                  "escapedName": "debug",
+                  "name": "debug",
+                  "rawSpec": "^2.1.1",
+                  "spec": ">=2.1.1 <3.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/babel-core"
+              ],
+              [
+                {
+                  "raw": "debug@^2.2.0",
+                  "scope": "[Circular]",
+                  "escapedName": "debug",
+                  "name": "debug",
+                  "rawSpec": "^2.2.0",
+                  "spec": ">=2.2.0 <3.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "debug@^2.2.0",
+            "_id": "debug@2.2.0",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/debug",
+            "_nodeVersion": "0.12.2",
+            "_npmUser": {
+              "name": "tootallnate",
+              "email": "nathan@tootallnate.net"
+            },
+            "_npmVersion": "2.7.4",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "debug@^2.2.0",
+              "scope": "[Circular]",
+              "escapedName": "debug",
+              "name": "debug",
+              "rawSpec": "^2.2.0",
+              "spec": ">=2.2.0 <3.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import",
+              "/eslint-plugin-import/eslint-import-resolver-node"
+            ],
+            "_resolved": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz",
+            "_shasum": "f87057e995b1a1f6ae6a4960664137bc56f039da",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "debug@^2.2.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "TJ Holowaychuk",
+              "email": "tj@vision-media.ca"
+            },
+            "browser": "./browser.js",
+            "bugs": {
+              "url": "https://github.com/visionmedia/debug/issues"
+            },
+            "component": {
+              "scripts": {
+                "debug/index.js": "browser.js",
+                "debug/debug.js": "debug.js"
+              }
+            },
+            "contributors": [
+              {
+                "name": "Nathan Rajlich",
+                "email": "nathan@tootallnate.net",
+                "url": "http://n8.io"
+              }
+            ],
+            "dependencies": {
+              "ms": {
+                "_args": [
+                  [
+                    {
+                      "raw": "ms@0.7.1",
+                      "scope": "[Circular]",
+                      "escapedName": "ms",
+                      "name": "ms",
+                      "rawSpec": "0.7.1",
+                      "spec": "0.7.1",
+                      "type": "version"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/debug"
+                  ],
+                  [
+                    {
+                      "raw": "ms@0.7.1",
+                      "scope": "[Circular]",
+                      "escapedName": "ms",
+                      "name": "ms",
+                      "rawSpec": "0.7.1",
+                      "spec": "0.7.1",
+                      "type": "version"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/debug"
+                  ]
+                ],
+                "_from": "ms@0.7.1",
+                "_id": "ms@0.7.1",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/ms",
+                "_nodeVersion": "0.12.2",
+                "_npmUser": {
+                  "name": "rauchg",
+                  "email": "rauchg@gmail.com"
+                },
+                "_npmVersion": "2.7.5",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "ms@0.7.1",
+                  "scope": "[Circular]",
+                  "escapedName": "ms",
+                  "name": "ms",
+                  "rawSpec": "0.7.1",
+                  "spec": "0.7.1",
+                  "type": "version"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/debug"
+                ],
+                "_resolved": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
+                "_shasum": "9cd13c03adbff25b65effde7ce864ee952017098",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "ms@0.7.1",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/debug",
+                "bugs": {
+                  "url": "https://github.com/guille/ms.js/issues"
+                },
+                "component": {
+                  "scripts": {
+                    "ms/index.js": "index.js"
+                  }
+                },
+                "dependencies": {},
+                "description": "Tiny ms conversion utility",
+                "devDependencies": {
+                  "expect.js": "*",
+                  "mocha": "*",
+                  "serve": "*"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "9cd13c03adbff25b65effde7ce864ee952017098",
+                  "tarball": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz"
+                },
+                "gitHead": "713dcf26d9e6fd9dbc95affe7eff9783b7f1b909",
+                "homepage": "https://github.com/guille/ms.js",
+                "main": "./index",
+                "maintainers": [
+                  {
+                    "name": "rauchg",
+                    "email": "rauchg@gmail.com"
+                  }
+                ],
+                "name": "ms",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git://github.com/guille/ms.js.git"
+                },
+                "scripts": {},
+                "version": "0.7.1",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/ms",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "small debugging utility",
+            "devDependencies": {
+              "browserify": "9.0.3",
+              "mocha": "*"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "f87057e995b1a1f6ae6a4960664137bc56f039da",
+              "tarball": "https://registry.npmjs.org/debug/-/debug-2.2.0.tgz"
+            },
+            "gitHead": "b38458422b5aa8aa6d286b10dfe427e8a67e2b35",
+            "homepage": "https://github.com/visionmedia/debug",
+            "keywords": [
+              "debug",
+              "log",
+              "debugger"
+            ],
+            "license": "MIT",
+            "main": "./node.js",
+            "maintainers": [
+              {
+                "name": "tjholowaychuk",
+                "email": "tj@vision-media.ca"
+              },
+              {
+                "name": "tootallnate",
+                "email": "nathan@tootallnate.net"
+              }
+            ],
+            "name": "debug",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git://github.com/visionmedia/debug.git"
+            },
+            "scripts": {},
+            "version": "2.2.0",
+            "_dependencies": {
+              "ms": "0.7.1"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/debug",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "doctrine": {
+            "_args": [
+              [
+                {
+                  "raw": "doctrine@1.3.x",
+                  "scope": "[Circular]",
+                  "escapedName": "doctrine",
+                  "name": "doctrine",
+                  "rawSpec": "1.3.x",
+                  "spec": ">=1.3.0 <1.4.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "doctrine@>=1.3.0 <1.4.0",
+            "_id": "doctrine@1.3.0",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/doctrine",
+            "_nodeVersion": "4.4.7",
+            "_npmOperationalInternal": {
+              "host": "packages-12-west.internal.npmjs.com",
+              "tmp": "tmp/doctrine-1.3.0.tgz_1471897078408_0.6770147804636508"
+            },
+            "_npmUser": {
+              "name": "eslint",
+              "email": "nicholas+eslint@nczconsulting.com"
+            },
+            "_npmVersion": "2.15.8",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "doctrine@1.3.x",
+              "scope": "[Circular]",
+              "escapedName": "doctrine",
+              "name": "doctrine",
+              "rawSpec": "1.3.x",
+              "spec": ">=1.3.0 <1.4.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/doctrine/-/doctrine-1.3.0.tgz",
+            "_shasum": "13e75682b55518424276f7c173783456ef913d26",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "doctrine@1.3.x",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "bugs": {
+              "url": "https://github.com/eslint/doctrine/issues"
+            },
+            "dependencies": {
+              "esutils": {
+                "_args": [
+                  [
+                    {
+                      "raw": "esutils@^2.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "esutils",
+                      "name": "esutils",
+                      "rawSpec": "^2.0.0",
+                      "spec": ">=2.0.0 <3.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/babel-core"
+                  ],
+                  [
+                    {
+                      "raw": "esutils@^2.0.2",
+                      "scope": "[Circular]",
+                      "escapedName": "esutils",
+                      "name": "esutils",
+                      "rawSpec": "^2.0.2",
+                      "spec": ">=2.0.2 <3.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/doctrine"
+                  ]
+                ],
+                "_from": "esutils@^2.0.2",
+                "_id": "esutils@2.0.2",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/esutils",
+                "_nodeVersion": "0.12.0",
+                "_npmUser": {
+                  "name": "michaelficarra",
+                  "email": "npm@michael.ficarra.me"
+                },
+                "_npmVersion": "2.5.1",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "esutils@^2.0.2",
+                  "scope": "[Circular]",
+                  "escapedName": "esutils",
+                  "name": "esutils",
+                  "rawSpec": "^2.0.2",
+                  "spec": ">=2.0.2 <3.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/doctrine"
+                ],
+                "_resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz",
+                "_shasum": "0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "esutils@^2.0.2",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/doctrine",
+                "bugs": {
+                  "url": "https://github.com/estools/esutils/issues"
+                },
+                "dependencies": {},
+                "description": "utility box for ECMAScript language tools",
+                "devDependencies": {
+                  "chai": "~1.7.2",
+                  "coffee-script": "~1.6.3",
+                  "jshint": "2.6.3",
+                  "mocha": "~2.2.1",
+                  "regenerate": "~1.2.1",
+                  "unicode-7.0.0": "^0.1.5"
+                },
+                "directories": {
+                  "lib": "./lib"
+                },
+                "dist": {
+                  "shasum": "0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b",
+                  "tarball": "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz"
+                },
+                "engines": {
+                  "node": ">=0.10.0"
+                },
+                "files": [
+                  "LICENSE.BSD",
+                  "README.md",
+                  "lib"
+                ],
+                "gitHead": "3ffd1c403f3f29db9e8a9574b1895682e57b6a7f",
+                "homepage": "https://github.com/estools/esutils",
+                "licenses": [
+                  {
+                    "type": "BSD",
+                    "url": "http://github.com/estools/esutils/raw/master/LICENSE.BSD"
+                  }
+                ],
+                "main": "lib/utils.js",
+                "maintainers": [
+                  {
+                    "name": "constellation",
+                    "email": "utatane.tea@gmail.com"
+                  },
+                  {
+                    "name": "michaelficarra",
+                    "email": "npm@michael.ficarra.me"
+                  }
+                ],
+                "name": "esutils",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git+ssh://git@github.com/estools/esutils.git"
+                },
+                "scripts": {
+                  "generate-regex": "node tools/generate-identifier-regex.js",
+                  "lint": "jshint lib/*.js",
+                  "test": "npm run-script lint && npm run-script unit-test",
+                  "unit-test": "mocha --compilers coffee:coffee-script -R spec"
+                },
+                "version": "2.0.2",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/esutils",
+                "error": "[Circular]",
+                "extraneous": false
+              },
+              "isarray": {
+                "_args": [
+                  [
+                    {
+                      "raw": "isarray@1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "isarray",
+                      "name": "isarray",
+                      "rawSpec": "1.0.0",
+                      "spec": "1.0.0",
+                      "type": "version"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/isobject"
+                  ],
+                  [
+                    {
+                      "raw": "isarray@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "isarray",
+                      "name": "isarray",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/doctrine"
+                  ]
+                ],
+                "_from": "isarray@^1.0.0",
+                "_id": "isarray@1.0.0",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/isarray",
+                "_nodeVersion": "5.1.0",
+                "_npmUser": {
+                  "name": "juliangruber",
+                  "email": "julian@juliangruber.com"
+                },
+                "_npmVersion": "3.3.12",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "isarray@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "isarray",
+                  "name": "isarray",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/doctrine"
+                ],
+                "_resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+                "_shasum": "bb935d48582cba168c06834957a54a3e07124f11",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "isarray@^1.0.0",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/doctrine",
+                "author": {
+                  "name": "Julian Gruber",
+                  "email": "mail@juliangruber.com",
+                  "url": "http://juliangruber.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/juliangruber/isarray/issues"
+                },
+                "dependencies": {},
+                "description": "Array#isArray for older browsers",
+                "devDependencies": {
+                  "tape": "~2.13.4"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "bb935d48582cba168c06834957a54a3e07124f11",
+                  "tarball": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+                },
+                "gitHead": "2a23a281f369e9ae06394c0fb4d2381355a6ba33",
+                "homepage": "https://github.com/juliangruber/isarray",
+                "keywords": [
+                  "browser",
+                  "isarray",
+                  "array"
+                ],
+                "license": "MIT",
+                "main": "index.js",
+                "maintainers": [
+                  {
+                    "name": "juliangruber",
+                    "email": "julian@juliangruber.com"
+                  }
+                ],
+                "name": "isarray",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git://github.com/juliangruber/isarray.git"
+                },
+                "scripts": {
+                  "test": "tape test.js"
+                },
+                "testling": {
+                  "files": "test.js",
+                  "browsers": [
+                    "ie/8..latest",
+                    "firefox/17..latest",
+                    "firefox/nightly",
+                    "chrome/22..latest",
+                    "chrome/canary",
+                    "opera/12..latest",
+                    "opera/next",
+                    "safari/5.1..latest",
+                    "ipad/6.0..latest",
+                    "iphone/6.0..latest",
+                    "android-browser/4.2..latest"
+                  ]
+                },
+                "version": "1.0.0",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/isarray",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "JSDoc parser",
+            "devDependencies": {
+              "coveralls": "^2.11.2",
+              "dateformat": "^1.0.11",
+              "eslint": "^1.10.3",
+              "eslint-release": "^0.10.0",
+              "istanbul": "^0.4.1",
+              "linefix": "^0.1.1",
+              "mocha": "^2.3.3",
+              "npm-license": "^0.3.1",
+              "semver": "^5.0.3",
+              "shelljs": "^0.5.3",
+              "shelljs-nodecli": "^0.1.1",
+              "should": "^5.0.1"
+            },
+            "directories": {
+              "lib": "./lib"
+            },
+            "dist": {
+              "shasum": "13e75682b55518424276f7c173783456ef913d26",
+              "tarball": "https://registry.npmjs.org/doctrine/-/doctrine-1.3.0.tgz"
+            },
+            "engines": {
+              "node": ">=0.10.0"
+            },
+            "files": [
+              "lib",
+              "LICENSE.BSD",
+              "LICENSE.closure-compiler",
+              "LICENSE.esprima",
+              "README.md"
+            ],
+            "gitHead": "b4b2870ccb4e47977fafce8e6055740e4dda28af",
+            "homepage": "https://github.com/eslint/doctrine",
+            "licenses": [
+              {
+                "type": "BSD",
+                "url": "http://github.com/eslint/doctrine/raw/master/LICENSE.BSD"
+              }
+            ],
+            "main": "lib/doctrine.js",
+            "maintainers": [
+              {
+                "name": "constellation",
+                "email": "utatane.tea@gmail.com"
+              },
+              {
+                "name": "eslint",
+                "email": "nicholas+eslint@nczconsulting.com"
+              },
+              {
+                "name": "nzakas",
+                "email": "nicholas@nczconsulting.com"
+              }
+            ],
+            "name": "doctrine",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/eslint/doctrine.git"
+            },
+            "scripts": {
+              "alpharelease": "eslint-prerelease alpha",
+              "betarelease": "eslint-prerelease beta",
+              "ci-release": "eslint-ci-release",
+              "lint": "eslint lib/",
+              "release": "eslint-release",
+              "test": "npm run lint && node Makefile.js test"
+            },
+            "version": "1.3.0",
+            "_dependencies": {
+              "esutils": "^2.0.2",
+              "isarray": "^1.0.0"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/doctrine",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "eslint-import-resolver-node": {
+            "_args": [
+              [
+                {
+                  "raw": "eslint-import-resolver-node@^0.2.0",
+                  "scope": "[Circular]",
+                  "escapedName": "eslint-import-resolver-node",
+                  "name": "eslint-import-resolver-node",
+                  "rawSpec": "^0.2.0",
+                  "spec": ">=0.2.0 <0.3.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "eslint-import-resolver-node@>=0.2.0 <0.3.0",
+            "_id": "eslint-import-resolver-node@0.2.3",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/eslint-import-resolver-node",
+            "_nodeVersion": "4.2.5",
+            "_npmOperationalInternal": {
+              "host": "packages-12-west.internal.npmjs.com",
+              "tmp": "tmp/eslint-import-resolver-node-0.2.3.tgz_1471718223843_0.09879478346556425"
+            },
+            "_npmUser": {
+              "name": "benmosher",
+              "email": "me@benmosher.com"
+            },
+            "_npmVersion": "3.7.2",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "eslint-import-resolver-node@^0.2.0",
+              "scope": "[Circular]",
+              "escapedName": "eslint-import-resolver-node",
+              "name": "eslint-import-resolver-node",
+              "rawSpec": "^0.2.0",
+              "spec": ">=0.2.0 <0.3.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.2.3.tgz",
+            "_shasum": "5add8106e8c928db2cba232bcd9efa846e3da16c",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "eslint-import-resolver-node@^0.2.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Ben Mosher",
+              "url": "me@benmosher.com"
+            },
+            "bugs": {
+              "url": "https://github.com/benmosher/eslint-plugin-import/issues"
+            },
+            "dependencies": {
+              "object-assign": {
+                "_args": [
+                  [
+                    {
+                      "raw": "object-assign@^4.1.0",
+                      "scope": "[Circular]",
+                      "escapedName": "object-assign",
+                      "name": "object-assign",
+                      "rawSpec": "^4.1.0",
+                      "spec": ">=4.1.0 <5.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/output-file-sync"
+                  ],
+                  [
+                    {
+                      "raw": "object-assign@^4.0.1",
+                      "scope": "[Circular]",
+                      "escapedName": "object-assign",
+                      "name": "object-assign",
+                      "rawSpec": "^4.0.1",
+                      "spec": ">=4.0.1 <5.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+                  ]
+                ],
+                "_from": "object-assign@^4.0.1",
+                "_id": "object-assign@4.1.0",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/object-assign",
+                "_nodeVersion": "4.1.0",
+                "_npmOperationalInternal": {
+                  "host": "packages-16-east.internal.npmjs.com",
+                  "tmp": "tmp/object-assign-4.1.0.tgz_1462212593641_0.3332549517508596"
+                },
+                "_npmUser": {
+                  "name": "spicyj",
+                  "email": "ben@benalpert.com"
+                },
+                "_npmVersion": "2.14.19",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "object-assign@^4.0.1",
+                  "scope": "[Circular]",
+                  "escapedName": "object-assign",
+                  "name": "object-assign",
+                  "rawSpec": "^4.0.1",
+                  "spec": ">=4.0.1 <5.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import",
+                  "/eslint-plugin-import/eslint-import-resolver-node"
+                ],
+                "_resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz",
+                "_shasum": "7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "object-assign@^4.0.1",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+                "author": {
+                  "name": "Sindre Sorhus",
+                  "email": "sindresorhus@gmail.com",
+                  "url": "sindresorhus.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/sindresorhus/object-assign/issues"
+                },
+                "dependencies": {},
+                "description": "ES2015 Object.assign() ponyfill",
+                "devDependencies": {
+                  "lodash": "^4.8.2",
+                  "matcha": "^0.7.0",
+                  "mocha": "*",
+                  "xo": "*"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0",
+                  "tarball": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz"
+                },
+                "engines": {
+                  "node": ">=0.10.0"
+                },
+                "files": [
+                  "index.js"
+                ],
+                "gitHead": "72fe21c86911758f3342fdf41c2a57860d5829bc",
+                "homepage": "https://github.com/sindresorhus/object-assign#readme",
+                "keywords": [
+                  "object",
+                  "assign",
+                  "extend",
+                  "properties",
+                  "es2015",
+                  "ecmascript",
+                  "harmony",
+                  "ponyfill",
+                  "prollyfill",
+                  "polyfill",
+                  "shim",
+                  "browser"
+                ],
+                "license": "MIT",
+                "maintainers": [
+                  {
+                    "name": "sindresorhus",
+                    "email": "sindresorhus@gmail.com"
+                  },
+                  {
+                    "name": "spicyj",
+                    "email": "ben@benalpert.com"
+                  }
+                ],
+                "name": "object-assign",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git+https://github.com/sindresorhus/object-assign.git"
+                },
+                "scripts": {
+                  "bench": "matcha bench.js",
+                  "test": "xo && mocha"
+                },
+                "version": "4.1.0",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/object-assign",
+                "error": "[Circular]",
+                "extraneous": false
+              },
+              "resolve": {
+                "_args": [
+                  [
+                    {
+                      "raw": "resolve@^1.1.6",
+                      "scope": "[Circular]",
+                      "escapedName": "resolve",
+                      "name": "resolve",
+                      "rawSpec": "^1.1.6",
+                      "spec": ">=1.1.6 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/bower-dependency-tree/node_modules/babel-core"
+                  ],
+                  [
+                    {
+                      "raw": "resolve@^1.1.6",
+                      "scope": "[Circular]",
+                      "escapedName": "resolve",
+                      "name": "resolve",
+                      "rawSpec": "^1.1.6",
+                      "spec": ">=1.1.6 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/eslint-import-resolver-node"
+                  ]
+                ],
+                "_from": "resolve@^1.1.6",
+                "_id": "resolve@1.1.7",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/resolve",
+                "_nodeVersion": "4.2.1",
+                "_npmUser": {
+                  "name": "substack",
+                  "email": "substack@gmail.com"
+                },
+                "_npmVersion": "3.4.1",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "resolve@^1.1.6",
+                  "scope": "[Circular]",
+                  "escapedName": "resolve",
+                  "name": "resolve",
+                  "rawSpec": "^1.1.6",
+                  "spec": ">=1.1.6 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/eslint-import-resolver-node"
+                ],
+                "_resolved": "https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz",
+                "_shasum": "203114d82ad2c5ed9e8e0411b3932875e889e97b",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "resolve@^1.1.6",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/eslint-import-resolver-node",
+                "author": {
+                  "name": "James Halliday",
+                  "email": "mail@substack.net",
+                  "url": "http://substack.net"
+                },
+                "bugs": {
+                  "url": "https://github.com/substack/node-resolve/issues"
+                },
+                "dependencies": {},
+                "description": "resolve like require.resolve() on behalf of files asynchronously and synchronously",
+                "devDependencies": {
+                  "tap": "0.4.13",
+                  "tape": "^3.5.0"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "203114d82ad2c5ed9e8e0411b3932875e889e97b",
+                  "tarball": "https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz"
+                },
+                "gitHead": "bb37f0d4400e4d7835375be4bd3ad1264bac3689",
+                "homepage": "https://github.com/substack/node-resolve#readme",
+                "keywords": [
+                  "resolve",
+                  "require",
+                  "node",
+                  "module"
+                ],
+                "license": "MIT",
+                "main": "index.js",
+                "maintainers": [
+                  {
+                    "name": "substack",
+                    "email": "mail@substack.net"
+                  }
+                ],
+                "name": "resolve",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git://github.com/substack/node-resolve.git"
+                },
+                "scripts": {
+                  "test": "tape test/*.js"
+                },
+                "version": "1.1.7",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/resolve",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "Node default behavior import resolution plugin for eslint-plugin-import.",
+            "devDependencies": {
+              "chai": "^3.4.1",
+              "mocha": "^2.3.4",
+              "nyc": "^7.0.0"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "5add8106e8c928db2cba232bcd9efa846e3da16c",
+              "tarball": "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.2.3.tgz"
+            },
+            "homepage": "https://github.com/benmosher/eslint-plugin-import",
+            "keywords": [
+              "eslint",
+              "eslintplugin",
+              "esnext",
+              "modules",
+              "eslint-plugin-import"
+            ],
+            "license": "MIT",
+            "main": "index.js",
+            "maintainers": [
+              {
+                "name": "benmosher",
+                "email": "me@benmosher.com"
+              }
+            ],
+            "name": "eslint-import-resolver-node",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/benmosher/eslint-plugin-import.git"
+            },
+            "scripts": {
+              "test": "nyc mocha"
+            },
+            "version": "0.2.3",
+            "_dependencies": {
+              "debug": "^2.2.0",
+              "object-assign": "^4.0.1",
+              "resolve": "^1.1.6"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/eslint-import-resolver-node",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "eslint-module-utils": {
+            "_args": [
+              [
+                {
+                  "raw": "eslint-module-utils@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "eslint-module-utils",
+                  "name": "eslint-module-utils",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "eslint-module-utils@>=1.0.0 <2.0.0",
+            "_id": "eslint-module-utils@1.0.0",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/eslint-module-utils",
+            "_nodeVersion": "4.2.5",
+            "_npmOperationalInternal": {
+              "host": "packages-12-west.internal.npmjs.com",
+              "tmp": "tmp/eslint-module-utils-1.0.0.tgz_1475145796988_0.43794940039515495"
+            },
+            "_npmUser": {
+              "name": "benmosher",
+              "email": "me@benmosher.com"
+            },
+            "_npmVersion": "3.10.6",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "eslint-module-utils@^1.0.0",
+              "scope": "[Circular]",
+              "escapedName": "eslint-module-utils",
+              "name": "eslint-module-utils",
+              "rawSpec": "^1.0.0",
+              "spec": ">=1.0.0 <2.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-1.0.0.tgz",
+            "_shasum": "c4a57fd3a53efd8426cc2d5550aadab9bbd05fd0",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "eslint-module-utils@^1.0.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Ben Mosher",
+              "email": "me@benmosher.com"
+            },
+            "bugs": {
+              "url": "https://github.com/benmosher/eslint-plugin-import/issues"
+            },
+            "dependencies": {
+              "pkg-dir": {
+                "_args": [
+                  [
+                    {
+                      "raw": "pkg-dir@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "pkg-dir",
+                      "name": "pkg-dir",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+                  ]
+                ],
+                "_from": "pkg-dir@>=1.0.0 <2.0.0",
+                "_id": "pkg-dir@1.0.0",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/pkg-dir",
+                "_nodeVersion": "0.12.7",
+                "_npmUser": {
+                  "name": "sindresorhus",
+                  "email": "sindresorhus@gmail.com"
+                },
+                "_npmVersion": "2.11.3",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "pkg-dir@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "pkg-dir",
+                  "name": "pkg-dir",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import"
+                ],
+                "_resolved": "https://registry.npmjs.org/pkg-dir/-/pkg-dir-1.0.0.tgz",
+                "_shasum": "7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "pkg-dir@^1.0.0",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+                "author": {
+                  "name": "Sindre Sorhus",
+                  "email": "sindresorhus@gmail.com",
+                  "url": "sindresorhus.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/sindresorhus/pkg-dir/issues"
+                },
+                "dependencies": {},
+                "description": "Find the root directory of a npm package",
+                "devDependencies": {
+                  "ava": "*",
+                  "xo": "*"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4",
+                  "tarball": "https://registry.npmjs.org/pkg-dir/-/pkg-dir-1.0.0.tgz"
+                },
+                "engines": {
+                  "node": ">=0.10.0"
+                },
+                "files": [
+                  "index.js"
+                ],
+                "gitHead": "a06a60b1a2cddf2f84912221477311327398da01",
+                "homepage": "https://github.com/sindresorhus/pkg-dir",
+                "keywords": [
+                  "package",
+                  "json",
+                  "root",
+                  "npm",
+                  "entry",
+                  "find",
+                  "up",
+                  "find-up",
+                  "findup",
+                  "look-up",
+                  "look",
+                  "file",
+                  "search",
+                  "match",
+                  "package",
+                  "resolve",
+                  "parent",
+                  "parents",
+                  "folder",
+                  "directory",
+                  "dir",
+                  "walk",
+                  "walking",
+                  "path"
+                ],
+                "license": "MIT",
+                "maintainers": [
+                  {
+                    "name": "sindresorhus",
+                    "email": "sindresorhus@gmail.com"
+                  }
+                ],
+                "name": "pkg-dir",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git+https://github.com/sindresorhus/pkg-dir.git"
+                },
+                "scripts": {
+                  "test": "xo && ava"
+                },
+                "version": "1.0.0",
+                "_dependencies": {
+                  "find-up": "^1.0.0"
+                },
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pkg-dir",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "Core utilities to support eslint-plugin-import and other module-related plugins.",
+            "devDependencies": {},
+            "directories": {},
+            "dist": {
+              "shasum": "c4a57fd3a53efd8426cc2d5550aadab9bbd05fd0",
+              "tarball": "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-1.0.0.tgz"
+            },
+            "engines": {
+              "node": ">=4"
+            },
+            "homepage": "https://github.com/benmosher/eslint-plugin-import#readme",
+            "keywords": [
+              "eslint-plugin-import",
+              "eslint",
+              "modules",
+              "esmodules"
+            ],
+            "license": "MIT",
+            "maintainers": [
+              {
+                "name": "benmosher",
+                "email": "me@benmosher.com"
+              }
+            ],
+            "name": "eslint-module-utils",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/benmosher/eslint-plugin-import.git"
+            },
+            "scripts": {
+              "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "version": "1.0.0",
+            "_dependencies": {
+              "debug": "2.2.0",
+              "pkg-dir": "^1.0.0"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/eslint-module-utils",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "has": {
+            "_args": [
+              [
+                {
+                  "raw": "has@^1.0.1",
+                  "scope": "[Circular]",
+                  "escapedName": "has",
+                  "name": "has",
+                  "rawSpec": "^1.0.1",
+                  "spec": ">=1.0.1 <2.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "has@>=1.0.1 <2.0.0",
+            "_id": "has@1.0.1",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/has",
+            "_nodeVersion": "2.2.1",
+            "_npmUser": {
+              "name": "tarruda",
+              "email": "tpadilha84@gmail.com"
+            },
+            "_npmVersion": "2.11.0",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "has@^1.0.1",
+              "scope": "[Circular]",
+              "escapedName": "has",
+              "name": "has",
+              "rawSpec": "^1.0.1",
+              "spec": ">=1.0.1 <2.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/has/-/has-1.0.1.tgz",
+            "_shasum": "8461733f538b0837c9361e39a9ab9e9704dc2f28",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "has@^1.0.1",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Thiago de Arruda",
+              "email": "tpadilha84@gmail.com"
+            },
+            "bugs": {
+              "url": "https://github.com/tarruda/has/issues"
+            },
+            "dependencies": {
+              "function-bind": {
+                "_args": [
+                  [
+                    {
+                      "raw": "function-bind@^1.0.2",
+                      "scope": "[Circular]",
+                      "escapedName": "function-bind",
+                      "name": "function-bind",
+                      "rawSpec": "^1.0.2",
+                      "spec": ">=1.0.2 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/has"
+                  ]
+                ],
+                "_from": "function-bind@>=1.0.2 <2.0.0",
+                "_id": "function-bind@1.1.0",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/function-bind",
+                "_nodeVersion": "5.6.0",
+                "_npmOperationalInternal": {
+                  "host": "packages-6-west.internal.npmjs.com",
+                  "tmp": "tmp/function-bind-1.1.0.tgz_1455438520627_0.822420896962285"
+                },
+                "_npmUser": {
+                  "name": "ljharb",
+                  "email": "ljharb@gmail.com"
+                },
+                "_npmVersion": "3.6.0",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "function-bind@^1.0.2",
+                  "scope": "[Circular]",
+                  "escapedName": "function-bind",
+                  "name": "function-bind",
+                  "rawSpec": "^1.0.2",
+                  "spec": ">=1.0.2 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/has"
+                ],
+                "_resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.0.tgz",
+                "_shasum": "16176714c801798e4e8f2cf7f7529467bb4a5771",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "function-bind@^1.0.2",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/has",
+                "author": {
+                  "name": "Raynos",
+                  "email": "raynos2@gmail.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/Raynos/function-bind/issues",
+                  "email": "raynos2@gmail.com"
+                },
+                "contributors": [
+                  {
+                    "name": "Raynos"
+                  },
+                  {
+                    "name": "Jordan Harband",
+                    "url": "https://github.com/ljharb"
+                  }
+                ],
+                "dependencies": {},
+                "description": "Implementation of Function.prototype.bind",
+                "devDependencies": {
+                  "@ljharb/eslint-config": "^2.1.0",
+                  "covert": "^1.1.0",
+                  "eslint": "^2.0.0",
+                  "jscs": "^2.9.0",
+                  "tape": "^4.4.0"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "16176714c801798e4e8f2cf7f7529467bb4a5771",
+                  "tarball": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.0.tgz"
+                },
+                "gitHead": "cb5057f2a0018ac48c812ccee86934a5af30efdb",
+                "homepage": "https://github.com/Raynos/function-bind",
+                "keywords": [
+                  "function",
+                  "bind",
+                  "shim",
+                  "es5"
+                ],
+                "licenses": [
+                  {
+                    "type": "MIT",
+                    "url": "http://github.com/Raynos/function-bind/raw/master/LICENSE"
+                  }
+                ],
+                "main": "index",
+                "maintainers": [
+                  {
+                    "name": "raynos",
+                    "email": "raynos2@gmail.com"
+                  },
+                  {
+                    "name": "ljharb",
+                    "email": "ljharb@gmail.com"
+                  }
+                ],
+                "name": "function-bind",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git://github.com/Raynos/function-bind.git"
+                },
+                "scripts": {
+                  "coverage": "covert test/*.js",
+                  "coverage-quiet": "covert test/*.js --quiet",
+                  "eslint": "eslint *.js */*.js",
+                  "jscs": "jscs *.js */*.js",
+                  "lint": "npm run jscs && npm run eslint",
+                  "test": "npm run lint && npm run tests-only && npm run coverage-quiet",
+                  "tests-only": "node test"
+                },
+                "testling": {
+                  "files": "test/index.js",
+                  "browsers": [
+                    "ie/8..latest",
+                    "firefox/16..latest",
+                    "firefox/nightly",
+                    "chrome/22..latest",
+                    "chrome/canary",
+                    "opera/12..latest",
+                    "opera/next",
+                    "safari/5.1..latest",
+                    "ipad/6.0..latest",
+                    "iphone/6.0..latest",
+                    "android-browser/4.2..latest"
+                  ]
+                },
+                "version": "1.1.0",
+                "_dependencies": {},
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/function-bind",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "Object.prototype.hasOwnProperty.call shortcut",
+            "devDependencies": {
+              "chai": "~1.7.2",
+              "mocha": "^1.21.4"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "8461733f538b0837c9361e39a9ab9e9704dc2f28",
+              "tarball": "https://registry.npmjs.org/has/-/has-1.0.1.tgz"
+            },
+            "engines": {
+              "node": ">= 0.8.0"
+            },
+            "gitHead": "535c5c8ed1dc255c9e223829e702548dd514d2a5",
+            "homepage": "https://github.com/tarruda/has",
+            "licenses": [
+              {
+                "type": "MIT",
+                "url": "https://github.com/tarruda/has/blob/master/LICENSE-MIT"
+              }
+            ],
+            "main": "./src/index",
+            "maintainers": [
+              {
+                "name": "tarruda",
+                "email": "tpadilha84@gmail.com"
+              }
+            ],
+            "name": "has",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git://github.com/tarruda/has.git"
+            },
+            "scripts": {
+              "test": "node_modules/mocha/bin/mocha"
+            },
+            "version": "1.0.1",
+            "_dependencies": {
+              "function-bind": "^1.0.2"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/has",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "lodash.cond": {
+            "_args": [
+              [
+                {
+                  "raw": "lodash.cond@^4.3.0",
+                  "scope": "[Circular]",
+                  "escapedName": "lodash.cond",
+                  "name": "lodash.cond",
+                  "rawSpec": "^4.3.0",
+                  "spec": ">=4.3.0 <5.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "lodash.cond@>=4.3.0 <5.0.0",
+            "_id": "lodash.cond@4.5.2",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/lodash.cond",
+            "_nodeVersion": "4.4.7",
+            "_npmOperationalInternal": {
+              "host": "packages-12-west.internal.npmjs.com",
+              "tmp": "tmp/lodash.cond-4.5.2.tgz_1471109850910_0.26198679278604686"
+            },
+            "_npmUser": {
+              "name": "jdalton",
+              "email": "john.david.dalton@gmail.com"
+            },
+            "_npmVersion": "2.15.10",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "lodash.cond@^4.3.0",
+              "scope": "[Circular]",
+              "escapedName": "lodash.cond",
+              "name": "lodash.cond",
+              "rawSpec": "^4.3.0",
+              "spec": ">=4.3.0 <5.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/lodash.cond/-/lodash.cond-4.5.2.tgz",
+            "_shasum": "f471a1da486be60f6ab955d17115523dd1d255d5",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "lodash.cond@^4.3.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "John-David Dalton",
+              "email": "john.david.dalton@gmail.com",
+              "url": "http://allyoucanleet.com/"
+            },
+            "bugs": {
+              "url": "https://github.com/lodash/lodash/issues"
+            },
+            "contributors": [
+              {
+                "name": "John-David Dalton",
+                "email": "john.david.dalton@gmail.com",
+                "url": "http://allyoucanleet.com/"
+              },
+              {
+                "name": "Blaine Bublitz",
+                "email": "blaine.bublitz@gmail.com",
+                "url": "https://github.com/phated"
+              },
+              {
+                "name": "Mathias Bynens",
+                "email": "mathias@qiwi.be",
+                "url": "https://mathiasbynens.be/"
+              }
+            ],
+            "dependencies": {},
+            "description": "The lodash method `_.cond` exported as a module.",
+            "devDependencies": {},
+            "directories": {},
+            "dist": {
+              "shasum": "f471a1da486be60f6ab955d17115523dd1d255d5",
+              "tarball": "https://registry.npmjs.org/lodash.cond/-/lodash.cond-4.5.2.tgz"
+            },
+            "homepage": "https://lodash.com/",
+            "icon": "https://lodash.com/icon.svg",
+            "keywords": [
+              "lodash-modularized",
+              "cond"
+            ],
+            "license": "MIT",
+            "maintainers": [
+              {
+                "name": "jdalton",
+                "email": "john.david.dalton@gmail.com"
+              },
+              {
+                "name": "mathias",
+                "email": "mathias@qiwi.be"
+              },
+              {
+                "name": "phated",
+                "email": "blaine.bublitz@gmail.com"
+              }
+            ],
+            "name": "lodash.cond",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/lodash/lodash.git"
+            },
+            "scripts": {
+              "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
+            },
+            "version": "4.5.2",
+            "_dependencies": {},
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/lodash.cond",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "minimatch": {
+            "_args": [
+              [
+                {
+                  "raw": "minimatch@^3.0.2",
+                  "scope": "[Circular]",
+                  "escapedName": "minimatch",
+                  "name": "minimatch",
+                  "rawSpec": "^3.0.2",
+                  "spec": ">=3.0.2 <4.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint/node_modules/glob"
+              ],
+              [
+                {
+                  "raw": "minimatch@^3.0.3",
+                  "scope": "[Circular]",
+                  "escapedName": "minimatch",
+                  "name": "minimatch",
+                  "rawSpec": "^3.0.3",
+                  "spec": ">=3.0.3 <4.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "minimatch@^3.0.3",
+            "_id": "minimatch@3.0.3",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/minimatch",
+            "_nodeVersion": "4.4.4",
+            "_npmOperationalInternal": {
+              "host": "packages-12-west.internal.npmjs.com",
+              "tmp": "tmp/minimatch-3.0.3.tgz_1470678322731_0.1892083385027945"
+            },
+            "_npmUser": {
+              "name": "isaacs",
+              "email": "i@izs.me"
+            },
+            "_npmVersion": "3.10.6",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "minimatch@^3.0.3",
+              "scope": "[Circular]",
+              "escapedName": "minimatch",
+              "name": "minimatch",
+              "rawSpec": "^3.0.3",
+              "spec": ">=3.0.3 <4.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz",
+            "_shasum": "2a4e4090b96b2db06a9d7df01055a62a77c9b774",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "minimatch@^3.0.3",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Isaac Z. Schlueter",
+              "email": "i@izs.me",
+              "url": "http://blog.izs.me"
+            },
+            "bugs": {
+              "url": "https://github.com/isaacs/minimatch/issues"
+            },
+            "dependencies": {
+              "brace-expansion": {
+                "_args": [
+                  [
+                    {
+                      "raw": "brace-expansion@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "brace-expansion",
+                      "name": "brace-expansion",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint/node_modules/minimatch"
+                  ],
+                  [
+                    {
+                      "raw": "brace-expansion@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "brace-expansion",
+                      "name": "brace-expansion",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/minimatch"
+                  ]
+                ],
+                "_from": "brace-expansion@^1.0.0",
+                "_id": "brace-expansion@1.1.6",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/brace-expansion",
+                "_nodeVersion": "4.4.7",
+                "_npmOperationalInternal": {
+                  "host": "packages-16-east.internal.npmjs.com",
+                  "tmp": "tmp/brace-expansion-1.1.6.tgz_1469047715600_0.9362958471756428"
+                },
+                "_npmUser": {
+                  "name": "juliangruber",
+                  "email": "julian@juliangruber.com"
+                },
+                "_npmVersion": "2.15.8",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "brace-expansion@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "brace-expansion",
+                  "name": "brace-expansion",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/minimatch"
+                ],
+                "_resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz",
+                "_shasum": "7197d7eaa9b87e648390ea61fc66c84427420df9",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "brace-expansion@^1.0.0",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/minimatch",
+                "author": {
+                  "name": "Julian Gruber",
+                  "email": "mail@juliangruber.com",
+                  "url": "http://juliangruber.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/juliangruber/brace-expansion/issues"
+                },
+                "dependencies": {
+                  "balanced-match": {
+                    "_args": [
+                      [
+                        {
+                          "raw": "balanced-match@^0.4.1",
+                          "scope": "[Circular]",
+                          "escapedName": "balanced-match",
+                          "name": "balanced-match",
+                          "rawSpec": "^0.4.1",
+                          "spec": ">=0.4.1 <0.5.0",
+                          "type": "range"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint/node_modules/brace-expansion"
+                      ],
+                      [
+                        {
+                          "raw": "balanced-match@^0.4.1",
+                          "scope": "[Circular]",
+                          "escapedName": "balanced-match",
+                          "name": "balanced-match",
+                          "rawSpec": "^0.4.1",
+                          "spec": ">=0.4.1 <0.5.0",
+                          "type": "range"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/brace-expansion"
+                      ]
+                    ],
+                    "_from": "balanced-match@^0.4.1",
+                    "_id": "balanced-match@0.4.2",
+                    "_inCache": true,
+                    "_location": "/eslint-plugin-import/balanced-match",
+                    "_nodeVersion": "4.4.7",
+                    "_npmOperationalInternal": {
+                      "host": "packages-16-east.internal.npmjs.com",
+                      "tmp": "tmp/balanced-match-0.4.2.tgz_1468834991581_0.6590619895141572"
+                    },
+                    "_npmUser": {
+                      "name": "juliangruber",
+                      "email": "julian@juliangruber.com"
+                    },
+                    "_npmVersion": "2.15.8",
+                    "_phantomChildren": {},
+                    "_requested": {
+                      "raw": "balanced-match@^0.4.1",
+                      "scope": "[Circular]",
+                      "escapedName": "balanced-match",
+                      "name": "balanced-match",
+                      "rawSpec": "^0.4.1",
+                      "spec": ">=0.4.1 <0.5.0",
+                      "type": "range"
+                    },
+                    "_requiredBy": [
+                      "/eslint-plugin-import/brace-expansion"
+                    ],
+                    "_resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz",
+                    "_shasum": "cb3f3e3c732dc0f01ee70b403f302e61d7709838",
+                    "_shrinkwrap": "[Circular]",
+                    "_spec": "balanced-match@^0.4.1",
+                    "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/brace-expansion",
+                    "author": {
+                      "name": "Julian Gruber",
+                      "email": "mail@juliangruber.com",
+                      "url": "http://juliangruber.com"
+                    },
+                    "bugs": {
+                      "url": "https://github.com/juliangruber/balanced-match/issues"
+                    },
+                    "dependencies": {},
+                    "description": "Match balanced character pairs, like \"{\" and \"}\"",
+                    "devDependencies": {
+                      "tape": "^4.6.0"
+                    },
+                    "directories": {},
+                    "dist": {
+                      "shasum": "cb3f3e3c732dc0f01ee70b403f302e61d7709838",
+                      "tarball": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz"
+                    },
+                    "gitHead": "57c2ea29d89a2844ae3bdcc637c6e2cbb73725e2",
+                    "homepage": "https://github.com/juliangruber/balanced-match",
+                    "keywords": [
+                      "match",
+                      "regexp",
+                      "test",
+                      "balanced",
+                      "parse"
+                    ],
+                    "license": "MIT",
+                    "main": "index.js",
+                    "maintainers": [
+                      {
+                        "name": "juliangruber",
+                        "email": "julian@juliangruber.com"
+                      }
+                    ],
+                    "name": "balanced-match",
+                    "optionalDependencies": {},
+                    "readme": "ERROR: No README data found!",
+                    "repository": {
+                      "type": "git",
+                      "url": "git://github.com/juliangruber/balanced-match.git"
+                    },
+                    "scripts": {
+                      "test": "make test"
+                    },
+                    "testling": {
+                      "files": "test/*.js",
+                      "browsers": [
+                        "ie/8..latest",
+                        "firefox/20..latest",
+                        "firefox/nightly",
+                        "chrome/25..latest",
+                        "chrome/canary",
+                        "opera/12..latest",
+                        "opera/next",
+                        "safari/5.1..latest",
+                        "ipad/6.0..latest",
+                        "iphone/6.0..latest",
+                        "android-browser/4.2..latest"
+                      ]
+                    },
+                    "version": "0.4.2",
+                    "_dependencies": {},
+                    "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/balanced-match",
+                    "error": "[Circular]",
+                    "extraneous": false
+                  },
+                  "concat-map": {
+                    "_args": [
+                      [
+                        {
+                          "raw": "concat-map@0.0.1",
+                          "scope": "[Circular]",
+                          "escapedName": "concat-map",
+                          "name": "concat-map",
+                          "rawSpec": "0.0.1",
+                          "spec": "0.0.1",
+                          "type": "version"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint/node_modules/brace-expansion"
+                      ],
+                      [
+                        {
+                          "raw": "concat-map@0.0.1",
+                          "scope": "[Circular]",
+                          "escapedName": "concat-map",
+                          "name": "concat-map",
+                          "rawSpec": "0.0.1",
+                          "spec": "0.0.1",
+                          "type": "version"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/brace-expansion"
+                      ]
+                    ],
+                    "_from": "concat-map@0.0.1",
+                    "_id": "concat-map@0.0.1",
+                    "_inCache": true,
+                    "_location": "/eslint-plugin-import/concat-map",
+                    "_npmUser": {
+                      "name": "substack",
+                      "email": "mail@substack.net"
+                    },
+                    "_npmVersion": "1.3.21",
+                    "_phantomChildren": {},
+                    "_requested": {
+                      "raw": "concat-map@0.0.1",
+                      "scope": "[Circular]",
+                      "escapedName": "concat-map",
+                      "name": "concat-map",
+                      "rawSpec": "0.0.1",
+                      "spec": "0.0.1",
+                      "type": "version"
+                    },
+                    "_requiredBy": [
+                      "/eslint-plugin-import/brace-expansion"
+                    ],
+                    "_resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
+                    "_shasum": "d8a96bd77fd68df7793a73036a3ba0d5405d477b",
+                    "_shrinkwrap": "[Circular]",
+                    "_spec": "concat-map@0.0.1",
+                    "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/brace-expansion",
+                    "author": {
+                      "name": "James Halliday",
+                      "email": "mail@substack.net",
+                      "url": "http://substack.net"
+                    },
+                    "bugs": {
+                      "url": "https://github.com/substack/node-concat-map/issues"
+                    },
+                    "dependencies": {},
+                    "description": "concatenative mapdashery",
+                    "devDependencies": {
+                      "tape": "~2.4.0"
+                    },
+                    "directories": {
+                      "example": "example",
+                      "test": "test"
+                    },
+                    "dist": {
+                      "shasum": "d8a96bd77fd68df7793a73036a3ba0d5405d477b",
+                      "tarball": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
+                    },
+                    "homepage": "https://github.com/substack/node-concat-map",
+                    "keywords": [
+                      "concat",
+                      "concatMap",
+                      "map",
+                      "functional",
+                      "higher-order"
+                    ],
+                    "license": "MIT",
+                    "main": "index.js",
+                    "maintainers": [
+                      {
+                        "name": "substack",
+                        "email": "mail@substack.net"
+                      }
+                    ],
+                    "name": "concat-map",
+                    "optionalDependencies": {},
+                    "readme": "ERROR: No README data found!",
+                    "repository": {
+                      "type": "git",
+                      "url": "git://github.com/substack/node-concat-map.git"
+                    },
+                    "scripts": {
+                      "test": "tape test/*.js"
+                    },
+                    "testling": {
+                      "files": "test/*.js",
+                      "browsers": {
+                        "ie": [
+                          6,
+                          7,
+                          8,
+                          9
+                        ],
+                        "ff": [
+                          3.5,
+                          10,
+                          15
+                        ],
+                        "chrome": [
+                          10,
+                          22
+                        ],
+                        "safari": [
+                          5.1
+                        ],
+                        "opera": [
+                          12
+                        ]
+                      }
+                    },
+                    "version": "0.0.1",
+                    "_dependencies": {},
+                    "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/concat-map",
+                    "error": "[Circular]",
+                    "extraneous": false
+                  }
+                },
+                "description": "Brace expansion as known from sh/bash",
+                "devDependencies": {
+                  "tape": "^4.6.0"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "7197d7eaa9b87e648390ea61fc66c84427420df9",
+                  "tarball": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz"
+                },
+                "gitHead": "791262fa06625e9c5594cde529a21d82086af5f2",
+                "homepage": "https://github.com/juliangruber/brace-expansion",
+                "keywords": [],
+                "license": "MIT",
+                "main": "index.js",
+                "maintainers": [
+                  {
+                    "name": "juliangruber",
+                    "email": "julian@juliangruber.com"
+                  },
+                  {
+                    "name": "isaacs",
+                    "email": "isaacs@npmjs.com"
+                  }
+                ],
+                "name": "brace-expansion",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git://github.com/juliangruber/brace-expansion.git"
+                },
+                "scripts": {
+                  "gentest": "bash test/generate.sh",
+                  "test": "tape test/*.js"
+                },
+                "testling": {
+                  "files": "test/*.js",
+                  "browsers": [
+                    "ie/8..latest",
+                    "firefox/20..latest",
+                    "firefox/nightly",
+                    "chrome/25..latest",
+                    "chrome/canary",
+                    "opera/12..latest",
+                    "opera/next",
+                    "safari/5.1..latest",
+                    "ipad/6.0..latest",
+                    "iphone/6.0..latest",
+                    "android-browser/4.2..latest"
+                  ]
+                },
+                "version": "1.1.6",
+                "_dependencies": {
+                  "balanced-match": "^0.4.1",
+                  "concat-map": "0.0.1"
+                },
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/brace-expansion",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "a glob matcher in javascript",
+            "devDependencies": {
+              "standard": "^3.7.2",
+              "tap": "^5.6.0"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "2a4e4090b96b2db06a9d7df01055a62a77c9b774",
+              "tarball": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz"
+            },
+            "engines": {
+              "node": "*"
+            },
+            "files": [
+              "minimatch.js"
+            ],
+            "gitHead": "eed89491bd4a4e6bc463aac0dfb5c29ef0d1dc13",
+            "homepage": "https://github.com/isaacs/minimatch#readme",
+            "license": "ISC",
+            "main": "minimatch.js",
+            "maintainers": [
+              {
+                "name": "isaacs",
+                "email": "i@izs.me"
+              }
+            ],
+            "name": "minimatch",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git://github.com/isaacs/minimatch.git"
+            },
+            "scripts": {
+              "posttest": "standard minimatch.js test/*.js",
+              "test": "tap test/*.js"
+            },
+            "version": "3.0.3",
+            "_dependencies": {
+              "brace-expansion": "^1.0.0"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/minimatch",
+            "error": "[Circular]",
+            "extraneous": false
+          },
+          "pkg-up": {
+            "_args": [
+              [
+                {
+                  "raw": "pkg-up@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "pkg-up",
+                  "name": "pkg-up",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import"
+              ]
+            ],
+            "_from": "pkg-up@>=1.0.0 <2.0.0",
+            "_id": "pkg-up@1.0.0",
+            "_inCache": true,
+            "_location": "/eslint-plugin-import/pkg-up",
+            "_nodeVersion": "4.1.0",
+            "_npmUser": {
+              "name": "sindresorhus",
+              "email": "sindresorhus@gmail.com"
+            },
+            "_npmVersion": "2.14.3",
+            "_phantomChildren": {},
+            "_requested": {
+              "raw": "pkg-up@^1.0.0",
+              "scope": "[Circular]",
+              "escapedName": "pkg-up",
+              "name": "pkg-up",
+              "rawSpec": "^1.0.0",
+              "spec": ">=1.0.0 <2.0.0",
+              "type": "range"
+            },
+            "_requiredBy": [
+              "/eslint-plugin-import"
+            ],
+            "_resolved": "https://registry.npmjs.org/pkg-up/-/pkg-up-1.0.0.tgz",
+            "_shasum": "3e08fb461525c4421624a33b9f7e6d0af5b05a26",
+            "_shrinkwrap": "[Circular]",
+            "_spec": "pkg-up@^1.0.0",
+            "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+            "author": {
+              "name": "Sindre Sorhus",
+              "email": "sindresorhus@gmail.com",
+              "url": "sindresorhus.com"
+            },
+            "bugs": {
+              "url": "https://github.com/sindresorhus/pkg-up/issues"
+            },
+            "dependencies": {
+              "find-up": {
+                "_args": [
+                  [
+                    {
+                      "raw": "find-up@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "find-up",
+                      "name": "find-up",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/browser-sync/node_modules/pkg-conf"
+                  ],
+                  [
+                    {
+                      "raw": "find-up@^1.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "find-up",
+                      "name": "find-up",
+                      "rawSpec": "^1.0.0",
+                      "spec": ">=1.0.0 <2.0.0",
+                      "type": "range"
+                    },
+                    "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pkg-dir"
+                  ]
+                ],
+                "_from": "find-up@^1.0.0",
+                "_id": "find-up@1.1.2",
+                "_inCache": true,
+                "_location": "/eslint-plugin-import/find-up",
+                "_nodeVersion": "4.3.0",
+                "_npmOperationalInternal": {
+                  "host": "packages-12-west.internal.npmjs.com",
+                  "tmp": "tmp/find-up-1.1.2.tgz_1457199955637_0.3445317060686648"
+                },
+                "_npmUser": {
+                  "name": "sindresorhus",
+                  "email": "sindresorhus@gmail.com"
+                },
+                "_npmVersion": "2.14.12",
+                "_phantomChildren": {},
+                "_requested": {
+                  "raw": "find-up@^1.0.0",
+                  "scope": "[Circular]",
+                  "escapedName": "find-up",
+                  "name": "find-up",
+                  "rawSpec": "^1.0.0",
+                  "spec": ">=1.0.0 <2.0.0",
+                  "type": "range"
+                },
+                "_requiredBy": [
+                  "/eslint-plugin-import/pkg-dir",
+                  "/eslint-plugin-import/pkg-up"
+                ],
+                "_resolved": "https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz",
+                "_shasum": "6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f",
+                "_shrinkwrap": "[Circular]",
+                "_spec": "find-up@^1.0.0",
+                "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pkg-dir",
+                "author": {
+                  "name": "Sindre Sorhus",
+                  "email": "sindresorhus@gmail.com",
+                  "url": "sindresorhus.com"
+                },
+                "bugs": {
+                  "url": "https://github.com/sindresorhus/find-up/issues"
+                },
+                "dependencies": {
+                  "path-exists": {
+                    "_args": [
+                      [
+                        {
+                          "raw": "path-exists@^2.0.0",
+                          "scope": "[Circular]",
+                          "escapedName": "path-exists",
+                          "name": "path-exists",
+                          "rawSpec": "^2.0.0",
+                          "spec": ">=2.0.0 <3.0.0",
+                          "type": "range"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/find-up"
+                      ]
+                    ],
+                    "_from": "path-exists@>=2.0.0 <3.0.0",
+                    "_id": "path-exists@2.1.0",
+                    "_inCache": true,
+                    "_location": "/eslint-plugin-import/path-exists",
+                    "_nodeVersion": "4.2.1",
+                    "_npmUser": {
+                      "name": "sindresorhus",
+                      "email": "sindresorhus@gmail.com"
+                    },
+                    "_npmVersion": "2.14.7",
+                    "_phantomChildren": {},
+                    "_requested": {
+                      "raw": "path-exists@^2.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "path-exists",
+                      "name": "path-exists",
+                      "rawSpec": "^2.0.0",
+                      "spec": ">=2.0.0 <3.0.0",
+                      "type": "range"
+                    },
+                    "_requiredBy": [
+                      "/eslint-plugin-import/find-up"
+                    ],
+                    "_resolved": "https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz",
+                    "_shasum": "0feb6c64f0fc518d9a754dd5efb62c7022761f4b",
+                    "_shrinkwrap": "[Circular]",
+                    "_spec": "path-exists@^2.0.0",
+                    "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/find-up",
+                    "author": {
+                      "name": "Sindre Sorhus",
+                      "email": "sindresorhus@gmail.com",
+                      "url": "sindresorhus.com"
+                    },
+                    "bugs": {
+                      "url": "https://github.com/sindresorhus/path-exists/issues"
+                    },
+                    "dependencies": {},
+                    "description": "Check if a path exists",
+                    "devDependencies": {
+                      "ava": "*",
+                      "xo": "*"
+                    },
+                    "directories": {},
+                    "dist": {
+                      "shasum": "0feb6c64f0fc518d9a754dd5efb62c7022761f4b",
+                      "tarball": "https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz"
+                    },
+                    "engines": {
+                      "node": ">=0.10.0"
+                    },
+                    "files": [
+                      "index.js"
+                    ],
+                    "gitHead": "3af423661e78466764f87c5712263c5d7a1ce5b7",
+                    "homepage": "https://github.com/sindresorhus/path-exists",
+                    "keywords": [
+                      "path",
+                      "exists",
+                      "exist",
+                      "file",
+                      "filepath",
+                      "fs",
+                      "filesystem",
+                      "file-system",
+                      "access",
+                      "stat"
+                    ],
+                    "license": "MIT",
+                    "maintainers": [
+                      {
+                        "name": "sindresorhus",
+                        "email": "sindresorhus@gmail.com"
+                      }
+                    ],
+                    "name": "path-exists",
+                    "optionalDependencies": {},
+                    "readme": "ERROR: No README data found!",
+                    "repository": {
+                      "type": "git",
+                      "url": "git+https://github.com/sindresorhus/path-exists.git"
+                    },
+                    "scripts": {
+                      "test": "xo && ava"
+                    },
+                    "version": "2.1.0",
+                    "_dependencies": {
+                      "pinkie-promise": "^2.0.0"
+                    },
+                    "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/path-exists",
+                    "error": "[Circular]",
+                    "extraneous": false
+                  },
+                  "pinkie-promise": {
+                    "_args": [
+                      [
+                        {
+                          "raw": "pinkie-promise@^2.0.0",
+                          "scope": "[Circular]",
+                          "escapedName": "pinkie-promise",
+                          "name": "pinkie-promise",
+                          "rawSpec": "^2.0.0",
+                          "spec": ">=2.0.0 <3.0.0",
+                          "type": "range"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/browser-sync/node_modules/har-validator"
+                      ],
+                      [
+                        {
+                          "raw": "pinkie-promise@^2.0.0",
+                          "scope": "[Circular]",
+                          "escapedName": "pinkie-promise",
+                          "name": "pinkie-promise",
+                          "rawSpec": "^2.0.0",
+                          "spec": ">=2.0.0 <3.0.0",
+                          "type": "range"
+                        },
+                        "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/find-up"
+                      ]
+                    ],
+                    "_from": "pinkie-promise@^2.0.0",
+                    "_id": "pinkie-promise@2.0.1",
+                    "_inCache": true,
+                    "_location": "/eslint-plugin-import/pinkie-promise",
+                    "_nodeVersion": "4.4.1",
+                    "_npmOperationalInternal": {
+                      "host": "packages-16-east.internal.npmjs.com",
+                      "tmp": "tmp/pinkie-promise-2.0.1.tgz_1460309839126_0.3422858319245279"
+                    },
+                    "_npmUser": {
+                      "name": "floatdrop",
+                      "email": "floatdrop@gmail.com"
+                    },
+                    "_npmVersion": "2.14.20",
+                    "_phantomChildren": {},
+                    "_requested": {
+                      "raw": "pinkie-promise@^2.0.0",
+                      "scope": "[Circular]",
+                      "escapedName": "pinkie-promise",
+                      "name": "pinkie-promise",
+                      "rawSpec": "^2.0.0",
+                      "spec": ">=2.0.0 <3.0.0",
+                      "type": "range"
+                    },
+                    "_requiredBy": [
+                      "/eslint-plugin-import/find-up",
+                      "/eslint-plugin-import/path-exists"
+                    ],
+                    "_resolved": "https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz",
+                    "_shasum": "2135d6dfa7a358c069ac9b178776288228450ffa",
+                    "_shrinkwrap": "[Circular]",
+                    "_spec": "pinkie-promise@^2.0.0",
+                    "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/find-up",
+                    "author": {
+                      "name": "Vsevolod Strukchinsky",
+                      "email": "floatdrop@gmail.com",
+                      "url": "github.com/floatdrop"
+                    },
+                    "bugs": {
+                      "url": "https://github.com/floatdrop/pinkie-promise/issues"
+                    },
+                    "dependencies": {
+                      "pinkie": {
+                        "_args": [
+                          [
+                            {
+                              "raw": "pinkie@^2.0.0",
+                              "scope": "[Circular]",
+                              "escapedName": "pinkie",
+                              "name": "pinkie",
+                              "rawSpec": "^2.0.0",
+                              "spec": ">=2.0.0 <3.0.0",
+                              "type": "range"
+                            },
+                            "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/browser-sync/node_modules/pinkie-promise"
+                          ],
+                          [
+                            {
+                              "raw": "pinkie@^2.0.0",
+                              "scope": "[Circular]",
+                              "escapedName": "pinkie",
+                              "name": "pinkie",
+                              "rawSpec": "^2.0.0",
+                              "spec": ">=2.0.0 <3.0.0",
+                              "type": "range"
+                            },
+                            "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pinkie-promise"
+                          ]
+                        ],
+                        "_from": "pinkie@^2.0.0",
+                        "_id": "pinkie@2.0.4",
+                        "_inCache": true,
+                        "_location": "/eslint-plugin-import/pinkie",
+                        "_nodeVersion": "4.2.4",
+                        "_npmUser": {
+                          "name": "floatdrop",
+                          "email": "floatdrop@gmail.com"
+                        },
+                        "_npmVersion": "2.14.12",
+                        "_phantomChildren": {},
+                        "_requested": {
+                          "raw": "pinkie@^2.0.0",
+                          "scope": "[Circular]",
+                          "escapedName": "pinkie",
+                          "name": "pinkie",
+                          "rawSpec": "^2.0.0",
+                          "spec": ">=2.0.0 <3.0.0",
+                          "type": "range"
+                        },
+                        "_requiredBy": [
+                          "/eslint-plugin-import/pinkie-promise"
+                        ],
+                        "_resolved": "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz",
+                        "_shasum": "72556b80cfa0d48a974e80e77248e80ed4f7f870",
+                        "_shrinkwrap": "[Circular]",
+                        "_spec": "pinkie@^2.0.0",
+                        "_where": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pinkie-promise",
+                        "author": {
+                          "name": "Vsevolod Strukchinsky",
+                          "email": "floatdrop@gmail.com",
+                          "url": "github.com/floatdrop"
+                        },
+                        "bugs": {
+                          "url": "https://github.com/floatdrop/pinkie/issues"
+                        },
+                        "dependencies": {},
+                        "description": "Itty bitty little widdle twinkie pinkie ES2015 Promise implementation",
+                        "devDependencies": {
+                          "core-assert": "^0.1.1",
+                          "coveralls": "^2.11.4",
+                          "mocha": "*",
+                          "nyc": "^3.2.2",
+                          "promises-aplus-tests": "*",
+                          "xo": "^0.10.1"
+                        },
+                        "directories": {},
+                        "dist": {
+                          "shasum": "72556b80cfa0d48a974e80e77248e80ed4f7f870",
+                          "tarball": "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz"
+                        },
+                        "engines": {
+                          "node": ">=0.10.0"
+                        },
+                        "files": [
+                          "index.js"
+                        ],
+                        "gitHead": "8d4a92447a5c62bff9f89756caeb4c9c8770579b",
+                        "homepage": "https://github.com/floatdrop/pinkie",
+                        "keywords": [
+                          "promise",
+                          "promises",
+                          "es2015",
+                          "es6"
+                        ],
+                        "license": "MIT",
+                        "maintainers": [
+                          {
+                            "name": "floatdrop",
+                            "email": "floatdrop@gmail.com"
+                          }
+                        ],
+                        "name": "pinkie",
+                        "optionalDependencies": {},
+                        "readme": "ERROR: No README data found!",
+                        "repository": {
+                          "type": "git",
+                          "url": "git+https://github.com/floatdrop/pinkie.git"
+                        },
+                        "scripts": {
+                          "coverage": "nyc report --reporter=text-lcov | coveralls",
+                          "test": "xo && nyc mocha"
+                        },
+                        "version": "2.0.4",
+                        "_dependencies": {},
+                        "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pinkie",
+                        "error": "[Circular]",
+                        "extraneous": false
+                      }
+                    },
+                    "description": "ES2015 Promise ponyfill",
+                    "devDependencies": {
+                      "mocha": "*"
+                    },
+                    "directories": {},
+                    "dist": {
+                      "shasum": "2135d6dfa7a358c069ac9b178776288228450ffa",
+                      "tarball": "https://registry.npmjs.org/pinkie-promise/-/pinkie-promise-2.0.1.tgz"
+                    },
+                    "engines": {
+                      "node": ">=0.10.0"
+                    },
+                    "files": [
+                      "index.js"
+                    ],
+                    "gitHead": "4a936c09c34ad591a25db93f1216d242de0d6184",
+                    "homepage": "https://github.com/floatdrop/pinkie-promise",
+                    "keywords": [
+                      "promise",
+                      "promises",
+                      "es2015",
+                      "es6",
+                      "polyfill",
+                      "ponyfill"
+                    ],
+                    "license": "MIT",
+                    "maintainers": [
+                      {
+                        "name": "floatdrop",
+                        "email": "floatdrop@gmail.com"
+                      }
+                    ],
+                    "name": "pinkie-promise",
+                    "optionalDependencies": {},
+                    "readme": "ERROR: No README data found!",
+                    "repository": {
+                      "type": "git",
+                      "url": "git+https://github.com/floatdrop/pinkie-promise.git"
+                    },
+                    "scripts": {
+                      "test": "mocha"
+                    },
+                    "version": "2.0.1",
+                    "_dependencies": {
+                      "pinkie": "^2.0.0"
+                    },
+                    "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pinkie-promise",
+                    "error": "[Circular]",
+                    "extraneous": false
+                  }
+                },
+                "description": "Find a file by walking up parent directories",
+                "devDependencies": {
+                  "ava": "*",
+                  "tempfile": "^1.1.1",
+                  "xo": "*"
+                },
+                "directories": {},
+                "dist": {
+                  "shasum": "6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f",
+                  "tarball": "https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz"
+                },
+                "engines": {
+                  "node": ">=0.10.0"
+                },
+                "files": [
+                  "index.js"
+                ],
+                "gitHead": "f2d7c1ff74fbac82b2cff038e311ef4b075d9184",
+                "homepage": "https://github.com/sindresorhus/find-up",
+                "keywords": [
+                  "find",
+                  "up",
+                  "find-up",
+                  "findup",
+                  "look-up",
+                  "look",
+                  "file",
+                  "search",
+                  "match",
+                  "package",
+                  "resolve",
+                  "parent",
+                  "parents",
+                  "folder",
+                  "directory",
+                  "dir",
+                  "walk",
+                  "walking",
+                  "path"
+                ],
+                "license": "MIT",
+                "maintainers": [
+                  {
+                    "name": "sindresorhus",
+                    "email": "sindresorhus@gmail.com"
+                  }
+                ],
+                "name": "find-up",
+                "optionalDependencies": {},
+                "readme": "ERROR: No README data found!",
+                "repository": {
+                  "type": "git",
+                  "url": "git+https://github.com/sindresorhus/find-up.git"
+                },
+                "scripts": {
+                  "test": "xo && ava"
+                },
+                "version": "1.1.2",
+                "_dependencies": {
+                  "path-exists": "^2.0.0",
+                  "pinkie-promise": "^2.0.0"
+                },
+                "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/find-up",
+                "error": "[Circular]",
+                "extraneous": false
+              }
+            },
+            "description": "Find the closest package.json file",
+            "devDependencies": {
+              "ava": "*",
+              "xo": "*"
+            },
+            "directories": {},
+            "dist": {
+              "shasum": "3e08fb461525c4421624a33b9f7e6d0af5b05a26",
+              "tarball": "https://registry.npmjs.org/pkg-up/-/pkg-up-1.0.0.tgz"
+            },
+            "engines": {
+              "node": ">=0.10.0"
+            },
+            "files": [
+              "index.js"
+            ],
+            "gitHead": "fdbaf6200f31e1e4878c4fc8298966804554cfc4",
+            "homepage": "https://github.com/sindresorhus/pkg-up#readme",
+            "keywords": [
+              "pkg",
+              "package",
+              "file",
+              "find",
+              "up",
+              "find-up",
+              "findup",
+              "look-up",
+              "look",
+              "file",
+              "search",
+              "match",
+              "package",
+              "resolve",
+              "parent",
+              "parents",
+              "folder",
+              "directory",
+              "dir",
+              "walk",
+              "walking",
+              "path"
+            ],
+            "license": "MIT",
+            "maintainers": [
+              {
+                "name": "sindresorhus",
+                "email": "sindresorhus@gmail.com"
+              }
+            ],
+            "name": "pkg-up",
+            "optionalDependencies": {},
+            "readme": "ERROR: No README data found!",
+            "repository": {
+              "type": "git",
+              "url": "git+https://github.com/sindresorhus/pkg-up.git"
+            },
+            "scripts": {
+              "test": "xo && ava"
+            },
+            "version": "1.0.0",
+            "_dependencies": {
+              "find-up": "^1.0.0"
+            },
+            "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import/node_modules/pkg-up",
+            "error": "[Circular]",
+            "extraneous": false
+          }
+        },
+        "description": "Import with sanity.",
+        "devDependencies": {
+          "babel-eslint": "next",
+          "babel-plugin-istanbul": "^2.0.1",
+          "babel-preset-es2015-argon": "latest",
+          "babel-register": "6.9.0",
+          "chai": "^3.4.0",
+          "coveralls": "^2.11.4",
+          "cross-env": "^3.0.0",
+          "eslint": "3.x",
+          "eslint-import-resolver-node": "file:./resolvers/node",
+          "eslint-import-resolver-webpack": "file:./resolvers/webpack",
+          "eslint-module-utils": "file:./utils",
+          "eslint-plugin-import": "2.x",
+          "gulp": "^3.9.0",
+          "gulp-babel": "6.1.2",
+          "istanbul": "^0.4.0",
+          "linklocal": "^2.6.0",
+          "mocha": "^2.2.1",
+          "nyc": "^8.3.0",
+          "redux": "^3.0.4",
+          "rimraf": "2.5.2",
+          "typescript": "^2.0.3",
+          "typescript-eslint-parser": "^0.4.0"
+        },
+        "directories": {
+          "test": "tests"
+        },
+        "dist": {
+          "shasum": "dcfe96357d476b3f822570d42c29bec66f5d9c5c",
+          "tarball": "https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.0.1.tgz"
+        },
+        "engines": {
+          "node": ">=4"
+        },
+        "files": [
+          "lib",
+          "config",
+          "memo-parser"
+        ],
+        "gitHead": "59520ff8245219763a38d54d1d5156899d26afbb",
+        "homepage": "https://github.com/benmosher/eslint-plugin-import",
+        "keywords": [
+          "eslint",
+          "eslintplugin",
+          "es6",
+          "jsnext",
+          "modules",
+          "import",
+          "export"
+        ],
+        "license": "MIT",
+        "main": "lib/index.js",
+        "maintainers": [
+          {
+            "name": "benmosher",
+            "email": "me@benmosher.com"
+          }
+        ],
+        "name": "eslint-plugin-import",
+        "nyc": {
+          "require": [
+            "babel-register"
+          ],
+          "sourceMap": false,
+          "instrument": false
+        },
+        "optionalDependencies": {},
+        "peerDependencies": {
+          "eslint": "2.x - 3.x"
+        },
+        "readme": "ERROR: No README data found!",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/benmosher/eslint-plugin-import.git"
+        },
+        "scripts": {
+          "ci-test": "eslint ./src && gulp pretest && cross-env NODE_PATH=./lib istanbul cover --report lcovonly --dir reports/coverage _mocha tests/lib/ -- --recursive --reporter dot",
+          "cover": "gulp pretest && cross-env NODE_PATH=./lib istanbul cover --dir reports/coverage _mocha tests/lib/ -- --recursive -R progress",
+          "coverage-report": "npm t && nyc report --reporter html",
+          "coveralls": "nyc report --reporter lcovonly && cat ./coverage/lcov.info | coveralls",
+          "debug": "cross-env NODE_PATH=./lib mocha debug --recursive --reporter dot tests/lib/",
+          "posttest": "eslint ./src",
+          "prepublish": "gulp prepublish",
+          "pretest": "linklocal",
+          "test": "cross-env BABEL_ENV=test NODE_PATH=./src nyc -s mocha -R dot --recursive tests/src -t 5s",
+          "test-all": "npm test && for resolver in ./resolvers/*; do cd $resolver && npm test && cd ../..; done",
+          "test-compiled": "npm run prepublish && NODE_PATH=./lib mocha --compilers js:babel-register --recursive tests/src",
+          "watch": "cross-env NODE_PATH=./src mocha --watch --compilers js:babel-register --recursive tests/src"
+        },
+        "version": "2.0.1",
+        "_dependencies": {
+          "builtin-modules": "^1.1.1",
+          "contains-path": "^0.1.0",
+          "debug": "^2.2.0",
+          "doctrine": "1.3.x",
+          "eslint-import-resolver-node": "^0.2.0",
+          "eslint-module-utils": "^1.0.0",
+          "has": "^1.0.1",
+          "lodash.cond": "^4.3.0",
+          "minimatch": "^3.0.3",
+          "pkg-up": "^1.0.0"
+        },
+        "path": "/Users/koki/.nvm/versions/node/v6.9.1/lib/node_modules/eslint-plugin-import",
+        "error": "[Circular]",
+        "extraneous": false,
+        "peerMissing": [
+          {
+            "requiredBy": "eslint-config-airbnb@12.0.0",
+            "requires": "eslint-plugin-import@^1.16.0"
+          }
+        ]
+      },
+      "peerMissing": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "version": "2.2.3",
+      "from": "eslint-plugin-jsx-a11y@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-2.2.3.tgz"
+    },
+    "eslint-plugin-markdown": {
+      "version": "1.0.0-beta.2",
+      "from": "eslint-plugin-markdown@1.0.0-beta.2",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-markdown/-/eslint-plugin-markdown-1.0.0-beta.2.tgz"
     },
     "eslint-plugin-react": {
-      "version": "5.2.2",
-      "from": "eslint-plugin-react@5.2.2",
-      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-5.2.2.tgz"
+      "version": "6.4.1",
+      "from": "eslint-plugin-react@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-6.4.1.tgz"
     },
     "express-generator": {
       "version": "4.13.4",
-      "from": "express-generator@latest",
+      "from": "express-generator@4.13.4",
       "resolved": "https://registry.npmjs.org/express-generator/-/express-generator-4.13.4.tgz"
     },
     "firebase-tools": {
-      "version": "3.0.4",
-      "from": "firebase-tools@3.0.4",
-      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.4.tgz"
+      "version": "3.0.8",
+      "from": "firebase-tools@latest",
+      "resolved": "https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.8.tgz"
     },
     "generator-chrome-extension": {
-      "version": "0.5.6",
-      "from": "generator-chrome-extension@0.5.6",
-      "resolved": "https://registry.npmjs.org/generator-chrome-extension/-/generator-chrome-extension-0.5.6.tgz"
+      "version": "0.6.1",
+      "from": "generator-chrome-extension@latest",
+      "resolved": "https://registry.npmjs.org/generator-chrome-extension/-/generator-chrome-extension-0.6.1.tgz"
     },
     "generator-react-fullstack": {
       "version": "0.1.18",
@@ -56,9 +3102,9 @@
       "resolved": "https://registry.npmjs.org/generator-react-fullstack/-/generator-react-fullstack-0.1.18.tgz"
     },
     "generator-webapp": {
-      "version": "2.1.0",
-      "from": "generator-webapp@2.1.0",
-      "resolved": "https://registry.npmjs.org/generator-webapp/-/generator-webapp-2.1.0.tgz"
+      "version": "2.2.0",
+      "from": "generator-webapp@latest",
+      "resolved": "https://registry.npmjs.org/generator-webapp/-/generator-webapp-2.2.0.tgz"
     },
     "grunt-cli": {
       "version": "1.2.0",
@@ -75,33 +3121,40 @@
       "from": "how2@1.1.0",
       "resolved": "https://registry.npmjs.org/how2/-/how2-1.1.0.tgz"
     },
+    "http-server": {
+      "version": "0.9.0",
+      "from": "http-server@0.9.0",
+      "resolved": "https://registry.npmjs.org/http-server/-/http-server-0.9.0.tgz"
+    },
     "jscs": {
       "version": "3.0.7",
-      "from": "jscs@latest",
+      "from": "jscs@3.0.7",
       "resolved": "https://registry.npmjs.org/jscs/-/jscs-3.0.7.tgz"
     },
     "jshint": {
-      "version": "2.9.2",
-      "from": "jshint@2.9.2",
-      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.2.tgz"
-    },
-    "kommissionen2": {
-      "version": "0.0.1"
+      "version": "2.9.4",
+      "from": "jshint@latest",
+      "resolved": "https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz"
     },
     "nodemon": {
-      "version": "1.10.0",
+      "version": "1.11.0",
       "from": "nodemon@latest",
-      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.10.0.tgz"
+      "resolved": "https://registry.npmjs.org/nodemon/-/nodemon-1.11.0.tgz"
     },
     "npm": {
-      "version": "3.10.5",
+      "version": "3.10.9",
       "from": "npm@latest",
-      "resolved": "https://registry.npmjs.org/npm/-/npm-3.10.5.tgz"
+      "resolved": "https://registry.npmjs.org/npm/-/npm-3.10.9.tgz"
+    },
+    "nuclide": {
+      "version": "0.176.0",
+      "from": "nuclide@latest",
+      "resolved": "https://registry.npmjs.org/nuclide/-/nuclide-0.176.0.tgz"
     },
     "phantomjs-prebuilt": {
-      "version": "2.1.8",
+      "version": "2.1.13",
       "from": "phantomjs-prebuilt@latest",
-      "resolved": "https://registry.npmjs.org/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.8.tgz"
+      "resolved": "https://registry.npmjs.org/phantomjs-prebuilt/-/phantomjs-prebuilt-2.1.13.tgz"
     },
     "react-native-cli": {
       "version": "1.0.0",
@@ -109,19 +3162,19 @@
       "resolved": "https://registry.npmjs.org/react-native-cli/-/react-native-cli-1.0.0.tgz"
     },
     "tldr": {
-      "version": "1.6.0",
-      "from": "tldr@1.6.0",
-      "resolved": "https://registry.npmjs.org/tldr/-/tldr-1.6.0.tgz"
+      "version": "1.6.2",
+      "from": "tldr@latest",
+      "resolved": "https://registry.npmjs.org/tldr/-/tldr-1.6.2.tgz"
     },
     "webtorrent-cli": {
-      "version": "1.2.3",
+      "version": "1.6.0",
       "from": "webtorrent-cli@latest",
-      "resolved": "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.2.3.tgz"
+      "resolved": "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-1.6.0.tgz"
     },
     "yo": {
-      "version": "1.8.4",
-      "from": "yo@1.8.4",
-      "resolved": "https://registry.npmjs.org/yo/-/yo-1.8.4.tgz"
+      "version": "1.8.5",
+      "from": "yo@latest",
+      "resolved": "https://registry.npmjs.org/yo/-/yo-1.8.5.tgz"
     }
   }
 }

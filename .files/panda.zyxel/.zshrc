@@ -49,7 +49,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime bower npm osx brew gulp grunt noreallyjustfuckingstopalready)
+plugins=(git jira sublime bower npm osx brew gulp grunt noreallyjustfuckingstopalready docker)
 
 # User configuration
 
@@ -110,6 +110,10 @@ eval $(thefuck --alias)
 # For a full list of active aliases, run `alias`.
 #
 
+#JIRA
+JIRA_NAME='nroos'
+
+
 # Alias
 alias grep='grep --color=auto'
 colorflag='-G'
@@ -166,3 +170,5 @@ unkey_host() {
 # uninstall by removing these lines or running `tabtab uninstall yo`
 [[ -f /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh ]] && . /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export PATH="$HOME/.yarn/bin:$PATH"
