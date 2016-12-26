@@ -49,7 +49,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sublime bower npm osx brew gulp grunt noreallyjustfuckingstopalready)
+plugins=(git jira sublime bower npm osx brew gulp grunt noreallyjustfuckingstopalready docker)
 
 # User configuration
 
@@ -64,6 +64,8 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
 
 source $ZSH/oh-my-zsh.sh
+
+source ~/.zshenv
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -110,6 +112,10 @@ eval $(thefuck --alias)
 # For a full list of active aliases, run `alias`.
 #
 
+#JIRA
+JIRA_NAME='nroos'
+
+
 # Alias
 alias grep='grep --color=auto'
 colorflag='-G'
@@ -139,18 +145,6 @@ alias mongostop="launchctl stop org.mongodb.mongod"
 
 # Functions
 
-calendar() {
-   if [[ ! -f /usr/bin/cal ]] ; then
-      echo "Please install cal before trying to use it!"
-      return
-   fi
-
-   if [[ "$#" = "0" ]] ; then
-      /usr/bin/cal | egrep -C 40 --color "\<$(date +%e| tr -d ' ')\>"
-   else
-      /usr/bin/cal $@ | egrep -C 40 --color "\<($(date +%B)|$(date +%e | tr -d ' '))\>"
-   fi
-}
 
 unkey_host() {
    if [[ -z "$1" ]] ; then
@@ -164,5 +158,8 @@ unkey_host() {
 
 # tabtab source for yo package
 # uninstall by removing these lines or running `tabtab uninstall yo`
-[[ -f /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh ]] && . /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# [[ -f /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh ]] && . /Users/koki/.nvm/versions/node/v5.9.0/lib/node_modules/yo/node_modules/tabtab/.completions/yo.zsh
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+export PATH="$HOME/.yarn/bin:$PATH"

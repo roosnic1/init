@@ -12,5 +12,6 @@
 		"no-param-reassign": [2, { "props": false }],
 		"no-console": 1,
 		"arrow-body-style": [2, "as-needed"]
-	}
+	},
+	"plugins": ["html"]
 }
